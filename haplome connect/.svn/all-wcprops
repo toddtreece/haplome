@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/13/trunk
+END
+BBOSCSender.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCSender.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/2/trunk/main.m
+END
+AppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/13/trunk/AppController.m
+END
+haplomeconnect.tif
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/7/trunk/haplomeconnect.tif
+END
+BBOSCArgument.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/BBOSCArgument.h
+END
+BBOSCMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCMessage.h
+END
+BBOSCListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/BBOSCListener.h
+END
+BBOSCSender.m
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCSender.m
+END
+BBOSCAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCAddress.h
+END
+haplome connect_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/haplome%20connect_Prefix.pch
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/13/trunk/Info.plist
+END
+BBOSCDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/BBOSCDispatcher.h
+END
+BBOSCArgument.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/BBOSCArgument.m
+END
+BBOSCMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCMessage.m
+END
+BBOSCListener.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/BBOSCListener.m
+END
+BBOSCAddress.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCAddress.m
+END
+BBOSCDispatcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/BBOSCDispatcher.m
+END
+TCPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/4/trunk/TCPServer.h
+END
+BBOSCDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCDecoder.h
+END
+BBOSCDataUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/BBOSCDataUtilities.h
+END
+BBOSCPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCPacket.h
+END
+TCPServer.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/3/trunk/TCPServer.m
+END
+BBOSCBundle.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCBundle.h
+END
+BBOSCDecoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/BBOSCDecoder.m
+END
+BBOSCDataUtilities.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/trunk/BBOSCDataUtilities.m
+END
+icon.tif
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/9/trunk/icon.tif
+END
+AppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/13/trunk/AppController.h
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/7/trunk/icon.png
+END
+BBOSCPacket.m
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCPacket.m
+END
+BBOSCBundle.m
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/BBOSCBundle.m
+END
