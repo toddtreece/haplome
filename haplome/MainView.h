@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
 @interface MainView : UIView {
 	CGContextRef ctx;
 	int yNumPads;

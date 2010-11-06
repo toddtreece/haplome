@@ -84,8 +84,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5F8B22080E95305800192AE5 /* AppController.m */,
 				5F8B22090E95305800192AE5 /* AppController.h */,
+				5F8B22080E95305800192AE5 /* AppController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

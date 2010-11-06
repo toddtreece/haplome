@@ -72,7 +72,7 @@ typedef enum {
 
 //CLASS INTERFACES:
 
-@interface TCPServer : NSObject {
+@interface TCPServer : NSObject <NSNetServiceDelegate> {
 @private
 	id _delegate;
     uint16_t _port;
@@ -84,7 +84,6 @@ typedef enum {
 - (BOOL)stop;
 - (BOOL) enableBonjourWithDomain:(NSString*)domain applicationProtocol:(NSString*)protocol name:(NSString*)name; //Pass "nil" for the default local domain - Pass only the application protocol for "protocol" e.g. "myApp"
 - (void) disableBonjour;
-
 @property(assign) id<TCPServerDelegate> delegate;
 
 + (NSString*) bonjourTypeFromIdentifier:(NSString*)identifier;

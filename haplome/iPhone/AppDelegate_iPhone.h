@@ -24,6 +24,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
-
+- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
+- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;
 @end
 

@@ -33,7 +33,6 @@
 -(void)awakeFromNib
 {
 	oscPrefixFromField = [oscPrefixField stringValue];
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeOscPrefix:)  name:NSControlTextDidChangeNotification object:oscPrefixField];
 	[self doTest];
 	[self setup];
 }
@@ -50,13 +49,7 @@
 	self.oscListener = newListener;
 
 }
--(void)changeOscPrefix:(NSNotification *)aNotification
-{
-	if([aNotification object] == oscPrefixField)
-	{
-		oscPrefixFromField = [oscPrefixField stringValue];
-	}
-}
+
 
 -(void)dispatchRawPacket:(NSData*)someData
 {
@@ -70,11 +63,9 @@
 
 -(void)dispatchMessage:(BBOSCMessage*)message
 {
-	
+	oscPrefix = [oscPrefixField stringValue];
 	NSString * addy = [[[message address] address] lowercaseString];
-	oscPrefix = oscPrefixFromField;
 	if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led"]]]) {
-		
 		int colVal = [[[message attachedObjects] objectAtIndex:0] intValue];
 		int rowVal = [[[message attachedObjects] objectAtIndex:1] intValue];
 		int command = [[[message attachedObjects] objectAtIndex:2] intValue];
@@ -116,8 +107,7 @@
 					[self send:tagValue | 0x80];
 					
 				}				
-			} else if (toggleValue ==0) {
-			
+			} else if (toggleValue ==0) {			
 				tagValue = i * 10 + colVal +1;
 				if(colVal <= 7 && i <=7){
 					
@@ -154,14 +144,8 @@
 					
 				}
 			}
-			
-			
 		}
-		
 	}
-	
-	
-	
 }
 
 
@@ -289,7 +273,7 @@
 							yValue = b - xValue;
 							yValue = yValue / 10;
 						}
-						oscPrefix = oscPrefixFromField;
+						oscPrefix = [oscPrefixField stringValue];
 						oscPrefix = [oscPrefix stringByAppendingString:@"/press"];
 						newMessage = [BBOSCMessage messageWithBBOSCAddress:[BBOSCAddress addressWithString:oscPrefix]];
 						[newMessage attachArgument:[BBOSCArgument argumentWithInt:xValue]];
@@ -312,7 +296,7 @@
 							yValue = b - xValue;
 							yValue = yValue / 10;
 						}
-						oscPrefix = oscPrefixFromField;
+						oscPrefix = [oscPrefixField stringValue];
 						oscPrefix = [oscPrefix stringByAppendingString:@"/press"];
 						newMessage = [BBOSCMessage messageWithBBOSCAddress:[BBOSCAddress addressWithString:oscPrefix]];
 						[newMessage attachArgument:[BBOSCArgument argumentWithInt:xValue]];

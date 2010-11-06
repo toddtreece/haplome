@@ -7,7 +7,8 @@
 //
 
 #import "MainView.h"
-
+#import "AppDelegate_iPad.h"
+#import "AppDelegate_iPhone.h"
 @implementation MainView
 @synthesize buttonArray;
 @synthesize rectObject;
@@ -85,6 +86,7 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	AppDelegate_iPhone *appDelegate = (AppDelegate_iPhone *)[[UIApplication sharedApplication] delegate];
 	NSUInteger x,y;
 	NSDictionary *dictionary;
 	for(y = 0; y < yNumPads; ++y) {
@@ -94,9 +96,10 @@
 			for (UITouch *touch in touches){
 				CGPoint location = [touch locationInView:self];
 				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
-					[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] removeObjectForKey:@"fill"];				
+					[appDelegate activateView:x withCol:y];
+					/*[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] removeObjectForKey:@"fill"];				
 					[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] setObject:[UIColor redColor] forKey:@"fill"];
-					[self setNeedsDisplay];
+					[self setNeedsDisplay];*/
 				}
 			}
 

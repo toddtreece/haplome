@@ -1,46 +1,46 @@
 Thaplome connect
 v7
 r0
-t310675693.097200
+t310699600.925816
 cCheck dependencies
-cProcessInfoPlistFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Info.plist" Info.plist
-cCopyStringsFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-cCompileXIB "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/English.lproj/MainMenu.xib"
-cCopyTiffFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif" haplomeconnect.tif
+cProcessInfoPlistFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/todd/Documents/haplome/haplome connect/English.lproj/MainMenu.xib"
+cCopyTiffFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif" haplomeconnect.tif
 cCpResource "build/Release/haplome connect.app/Contents/Resources/icon.png" icon.png
-cProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" normal i386
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect" normal ppc
-cCreateUniversalBinary "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect" normal "i386 ppc"
-cGenerateDSYMFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app.dSYM" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"
-cTouch "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app"
+cProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o" "/Users/todd/Documents/haplome/haplome connect/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o" "/Users/todd/Documents/haplome/haplome connect/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o" "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o" "/Users/todd/Documents/haplome/haplome connect/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o" "/Users/todd/Documents/haplome/haplome connect/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o" "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect" normal ppc
+cLd "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" normal i386
+cCreateUniversalBinary "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect" normal "i386 ppc"
+cGenerateDSYMFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app.dSYM" "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"
+cTouch "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app"
 
 N/Developer/SDKs/MacOSX10.5.sdk
 c000000004CCF6DCB00000000000000EE
@@ -844,6 +844,377 @@ t1287112227
 s260
 i<Cocoa/Cocoa.h>
 
+N/Users/todd/Documents/haplome/haplome connect/AppController.h
+c000000004CB7C6230000000000000532
+t1287112227
+s1330
+i<Foundation/Foundation.h>
+i"TCPServer.h"
+
+N/Users/todd/Documents/haplome/haplome connect/AppController.m
+c000000004CD4B1830000000000002386
+t1289007491
+s9094
+i"AppController.h"
+i"BBOSCArgument.h"
+i"BBOSCListener.h"
+i"BBOSCDispatcher.h"
+i"BBOSCDataUtilities.h"
+i"BBOSCMessage.h"
+i"BBOSCBundle.h"
+i"BBOSCDecoder.h"
+i"BBOSCSender.h"
+i"BBOSCAddress.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.h
+c000000004CB7C62300000000000005E8
+t1287112227
+s1512
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m
+c000000004CB7C6230000000000000B8F
+t1287112227
+s2959
+i"BBOSCAddress.h"
+i"BBOSCDataUtilities.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.h
+c000000004CB7C623000000000000086C
+t1287112227
+s2156
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m
+c000000004CB7C62300000000000017A2
+t1287112227
+s6050
+i"BBOSCArgument.h"
+i"BBOSCDataUtilities.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.h
+c000000004CB7C62300000000000005A4
+t1287112227
+s1444
+i<Foundation/Foundation.h>
+i"BBOSCPacket.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m
+c000000004CB7C6230000000000000C79
+t1287112227
+s3193
+i"BBOSCBundle.h"
+i"BBOSCDataUtilities.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.h
+c000000004CB7C623000000000000085A
+t1287112227
+s2138
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m
+c000000004CB7C623000000000000220B
+t1287112227
+s8715
+i"BBOSCDataUtilities.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.h
+c000000004CB7C623000000000000087B
+t1287112227
+s2171
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m
+c000000004CB7C623000000000000223E
+t1287112227
+s8766
+i"BBOSCDecoder.h"
+i"BBOSCDataUtilities.h"
+i"BBOSCAddress.h"
+i"BBOSCArgument.h"
+i"BBOSCMessage.h"
+i"BBOSCBundle.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.h
+c000000004CB7C623000000000000045B
+t1287112227
+s1115
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m
+c000000004CB7C6230000000000000549
+t1287112227
+s1353
+i"BBOSCDispatcher.h"
+i"BBOSCDecoder.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCListener.h
+c000000004CB7C6230000000000000851
+t1287112227
+s2129
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m
+c000000004CB7C62300000000000012DB
+t1287112227
+s4827
+i"BBOSCListener.h"
+i"BBOSCDispatcher.h"
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.h
+c000000004CB7C62300000000000006B6
+t1287112227
+s1718
+i<Foundation/Foundation.h>
+i"BBOSCPacket.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m
+c000000004CB7C62300000000000010E9
+t1287112227
+s4329
+i"BBOSCMessage.h"
+i"BBOSCArgument.h"
+i"BBOSCDataUtilities.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.h
+c000000004CB7C62300000000000004F7
+t1287112227
+s1271
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m
+c000000004CB7C6230000000000000681
+t1287112227
+s1665
+i"BBOSCPacket.h"
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCSender.h
+c000000004CB7C62300000000000008DC
+t1287112227
+s2268
+i<Foundation/Foundation.h>
+i<netdb.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+
+N/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m
+c000000004CB7C623000000000000109C
+t1287112227
+s4252
+i"BBOSCSender.h"
+i"BBOSCPacket.h"
+
+N/Users/todd/Documents/haplome/haplome connect/English.lproj/InfoPlist.strings
+c000000004CB7C623000000000000005C
+t1287112227
+s92
+
+N/Users/todd/Documents/haplome/haplome connect/English.lproj/MainMenu.xib
+c000000004CB7C62300000000000227C1
+t1287112227
+s141249
+
+N/Users/todd/Documents/haplome/haplome connect/TCPServer.h
+c000000004CB7C6230000000000000E36
+t1287112227
+s3638
+i<Foundation/Foundation.h>
+
+N/Users/todd/Documents/haplome/haplome connect/TCPServer.m
+c000000004CB7C6230000000000002490
+t1287112227
+s9360
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+i<CFNetwork/CFSocketStream.h>
+i"TCPServer.h"
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app
+t1289006800
+s102
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app.dSYM
+t1289006800
+s102
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Info.plist
+t1287112227
+s852
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect
+t1289006800
+s139632
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/PkgInfo
+t1287112227
+s8
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1287112227
+s92
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/MainMenu.nib
+t1287112227
+s31513
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif
+t1287112227
+s211420
+
+N/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/icon.png
+t1287112227
+s166116
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o
+t1289006800
+s43988
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o
+t1288996770
+s11088
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o
+t1288996769
+s18544
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o
+t1288996770
+s12048
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o
+t1288996770
+s18236
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o
+t1288996770
+s15328
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o
+t1288996770
+s6416
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o
+t1288996770
+s14520
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o
+t1288996770
+s14208
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o
+t1288996770
+s9392
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o
+t1288996770
+s12232
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o
+t1288996771
+s23884
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect
+t1289006800
+s67672
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect.LinkFileList
+c000000004CD4879E000000000000070D
+t1288996766
+s1805
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o
+t1288996769
+s4856
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o
+t1289006800
+s45684
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o
+t1288996771
+s11808
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o
+t1288996771
+s21424
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o
+t1288996772
+s12764
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o
+t1288996771
+s19488
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o
+t1288996772
+s17240
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o
+t1288996772
+s6564
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o
+t1288996771
+s15144
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o
+t1288996772
+s15212
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o
+t1288996772
+s9660
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o
+t1288996772
+s12664
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o
+t1288996772
+s25308
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect
+t1289006800
+s65904
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect.LinkFileList
+c000000004CD4879E0000000000000700
+t1288996766
+s1792
+
+N/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o
+t1288996771
+s4888
+
+N/Users/todd/Documents/haplome/haplome connect/haplome connect_Prefix.pch
+c000000004CB7C62300000000000000A1
+t1287112227
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/todd/Documents/haplome/haplome connect/haplomeconnect.tif
+c000000004CB7C62300000000000339DC
+t1287112227
+s211420
+
+N/Users/todd/Documents/haplome/haplome connect/icon.png
+c000000004CB7C62300000000000288E4
+t1287112227
+s166116
+
+N/Users/todd/Documents/haplome/haplome connect/main.m
+c000000004CB7C6230000000000000104
+t1287112227
+s260
+i<Cocoa/Cocoa.h>
+
 N/var/folders/f6/f6foWP0RHqumAcQoearr3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-bftblifiuvxwkjebiturlhkbvmzd/haplome connect_Prefix.pch.gch
 t1265333338
 s50007888
@@ -864,6 +1235,14 @@ N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1288979797
 s50007888
 
+N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch.gch
+t1288996769
+s50007888
+
+N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch.gch
+t1288996769
+s52781072
+
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch.gch
 t1288979797
 s52781072
@@ -875,7 +1254,7 @@ s866
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies310675693#310675693#0(0"0(0#1#0"8626457696#0"0#
+lSLF07#2@18"Check dependencies310699600#310699600#0(0"0(0#1#0"8620553440#0"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.837007
@@ -903,6 +1282,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m310672598#310672599#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m8618316576#1982"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o" "/Users/todd/Documents/haplome/haplome connect/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310699600.213087
+e310699600.843021
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o
+x/Users/todd/Documents/haplome/haplome connect/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/AppController.m310699600#310699600#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/AppController.m8633822272#1850"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/AppController.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/AppController.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCAddress.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.262170
 e287026139.429623
@@ -928,6 +1320,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m310672597#310672597#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m8617497376#1980"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.020455
+e310689570.226680
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m310689570#310689570#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m8601622304#1848"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCAddress.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCArgument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026138.846274
@@ -955,6 +1360,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m310672597#310672597#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m8616332576#1982"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689569.638582
+e310689569.952859
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m310689569#310689569#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m8604303328#1850"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCArgument.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCBundle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.769792
 e287026139.982414
@@ -980,6 +1398,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m310672598#310672598#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m8617840864#1978"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.632293
+e310689570.860230
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m310689570#310689570#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m8607452224#1846"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCBundle.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDataUtilities.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.066575
@@ -1007,6 +1438,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m310672597#310672597#0(0"0(0#0#78"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m8617684960#1992"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689569.952992
+e310689570.191139
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m310689569#310689570#0(0"0(0#0#66"/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m8606295904#1860"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDataUtilities.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDecoder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.391504
 e287026139.595996
@@ -1032,6 +1476,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m310672597#310672598#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m8617651584#1980"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.227391
+e310689570.456129
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m310689570#310689570#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m8607455392#1848"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDecoder.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDispatcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.263212
@@ -1059,6 +1516,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m310672597#310672598#0(0"0(0#0#75"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m8617776224#1986"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.191253
+e310689570.373364
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m310689570#310689570#0(0"0(0#0#63"/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m8606816896#1854"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCDispatcher.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCListener.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026138.978348
 e287026139.263149
@@ -1084,6 +1554,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m310672597#310672597#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m8618661248#1982"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689569.815930
+e310689570.020344
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCListener.m310689569#310689570#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m8604493568#1850"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCListener.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCMessage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.429723
@@ -1111,6 +1594,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m310672598#310672598#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m8614478848#1980"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.373465
+e310689570.632186
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m310689570#310689570#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m8606601568#1848"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCMessage.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCPacket.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.596090
 e287026139.769687
@@ -1136,6 +1632,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m310672598#310672598#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m8617238656#1978"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.456236
+e310689570.625057
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m310689570#310689570#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m8606298688#1846"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCPacket.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCSender.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.628857
@@ -1163,6 +1672,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m310672598#310672598#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m8618351680#1978"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.625157
+e310689570.837767
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCSender.m310689570#310689570#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m8607639712#1846"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/BBOSCSender.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/TCPServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026139.982503
 e287026140.245676
@@ -1188,6 +1710,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m310672598#310672598#0(0"0(0#0#69"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m8617589152#1974"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o" "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689570.860338
+e310689571.162685
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o
+x/Users/todd/Documents/haplome/haplome connect/TCPServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/todd/Documents/haplome/haplome connect/TCPServer.m310689570#310689571#0(0"0(0#0#57"/Users/todd/Documents/haplome/haplome connect/TCPServer.m8607358016#1842"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/TCPServer.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s287026138.845396
@@ -1215,6 +1750,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m310672597#310672597#0(0"0(0#0#64"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m8617760768#1964"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o" "/Users/todd/Documents/haplome/haplome connect/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689569.637546
+e310689569.815827
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o
+x/Users/todd/Documents/haplome/haplome connect/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/todd/Documents/haplome/haplome connect/main.m310689569#310689569#0(0"0(0#0#52"/Users/todd/Documents/haplome/haplome connect/main.m8607628288#1832"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/main.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/main.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.777136
 e287026142.144558
@@ -1240,6 +1788,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m310672600#310672600#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m8617881440#1989"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/AppController.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o" "/Users/todd/Documents/haplome/haplome connect/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310699600.216904
+e310699600.787304
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o
+x/Users/todd/Documents/haplome/haplome connect/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/AppController.m310699600#310699600#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/AppController.m8637083520#1857"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/AppController.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/AppController.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCAddress.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026140.932265
@@ -1267,6 +1828,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m310672599#310672599#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m8617457408#1987"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCAddress.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.681667
+e310689571.893987
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m310689571#310689571#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m8605718848#1855"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCAddress.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCAddress.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCArgument.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026140.437460
 e287026140.672387
@@ -1292,6 +1866,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m310672599#310672599#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m8616538208#1989"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCArgument.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.334910
+e310689571.636088
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m310689571#310689571#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m8605997248#1857"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCArgument.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCArgument.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCBundle.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.605379
@@ -1319,6 +1906,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m310672599#310672600#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m8617634592#1985"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCBundle.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689572.403941
+e310689572.617144
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m310689572#310689572#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m8606607872#1853"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCBundle.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCBundle.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDataUtilities.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026140.880492
 e287026141.147214
@@ -1344,6 +1944,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m310672599#310672599#0(0"0(0#0#78"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m8618104000#1999"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDataUtilities.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.636188
+e310689571.880340
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m310689571#310689571#0(0"0(0#0#66"/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m8604469344#1867"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDataUtilities.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDataUtilities.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDecoder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.181548
@@ -1371,6 +1984,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m310672599#310672599#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m8617528832#1987"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDecoder.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.894091
+e310689572.238542
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m310689571#310689572#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m8606440160#1855"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDecoder.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDecoder.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCDispatcher.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.147306
 e287026141.355836
@@ -1396,6 +2022,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m310672599#310672599#0(0"0(0#0#75"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m8612681216#1993"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCDispatcher.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.880438
+e310689572.061819
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m310689571#310689572#0(0"0(0#0#63"/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m8606903904#1861"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCDispatcher.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCDispatcher.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCListener.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026140.672478
@@ -1423,6 +2062,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m310672599#310672599#0(0"0(0#0#73"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m8612930304#1989"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCListener.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.466834
+e310689571.681568
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCListener.m310689571#310689571#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m8606131648#1857"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCListener.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCListener.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCMessage.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.355930
 e287026141.605281
@@ -1448,6 +2100,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m310672599#310672599#0(0"0(0#0#72"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m8616565440#1987"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCMessage.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689572.061923
+e310689572.300170
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m310689572#310689572#0(0"0(0#0#60"/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m8606190112#1855"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCMessage.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCMessage.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCPacket.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.409696
@@ -1475,6 +2140,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m310672599#310672599#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m8616386080#1985"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCPacket.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689572.241743
+e310689572.403833
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m310689572#310689572#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m8601674272#1853"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCPacket.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCPacket.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/BBOSCSender.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.577920
 e287026141.776970
@@ -1500,6 +2178,19 @@ xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m310672599#310672600#0(0"0(0#0#71"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m8617868000#1985"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/BBOSCSender.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o"0#
+
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o" "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689572.300276
+e310689572.494481
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o
+x/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/todd/Documents/haplome/haplome connect/BBOSCSender.m310689572#310689572#0(0"0(0#0#59"/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m8607183200#1853"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/BBOSCSender.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/BBOSCSender.o"0#
 
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/TCPServer.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026141.804989
@@ -1527,6 +2218,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m310672600#310672600#0(0"0(0#0#69"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m8617683616#1981"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/TCPServer.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o" "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689572.617247
+e310689572.922062
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o
+x/Users/todd/Documents/haplome/haplome connect/TCPServer.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/todd/Documents/haplome/haplome connect/TCPServer.m310689572#310689572#0(0"0(0#0#57"/Users/todd/Documents/haplome/haplome connect/TCPServer.m8593622112#1849"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/TCPServer.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/TCPServer.o"0#
+
 CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o" "/Users/todd/Documents/Apple Dev Projects/haplome connect/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s287026140.223002
 e287026140.437364
@@ -1553,6 +2257,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m310672598#310672599#0(0"0(0#0#64"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m8617094016#1971"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/main.m" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o"0#
 
+CCompileC "build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o" "/Users/todd/Documents/haplome/haplome connect/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689571.162836
+e310689571.334802
+r1
+xCompileC
+xbuild/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o
+x/Users/todd/Documents/haplome/haplome connect/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/todd/Documents/haplome/haplome connect/main.m310689571#310689571#0(0"0(0#0#52"/Users/todd/Documents/haplome/haplome connect/main.m8600002848#1839"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -include "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch" -c "/Users/todd/Documents/haplome/haplome connect/main.m" -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/main.o"0#
+
 CCompileXIB "/Users/todd/Documents/Apple Dev Projects/haplome connect/English.lproj/MainMenu.xib"
 s287026132.609892
 e287026134.195701
@@ -1562,6 +2279,9 @@ x/Users/todd/Documents/Apple Dev Projects/haplome connect/English.lproj/MainMenu
 lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib287026132#287026134#0(0"0(0#0#83"/Users/todd/Documents/Apple Dev Projects/haplome connect/English.lproj/MainMenu.xib4300903632#397"    cd "/Users/todd/Documents/Apple Dev Projects/haplome connect"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/todd/Documents/Apple Dev Projects/haplome connect/English.lproj/MainMenu.xib"0#
 
 CCompileXIB "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/English.lproj/MainMenu.xib"
+r0
+
+CCompileXIB "/Users/todd/Documents/haplome/haplome connect/English.lproj/MainMenu.xib"
 r0
 
 CCopyStringsFile "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -1576,6 +2296,9 @@ lSLF07#2@36"Copy English.lproj/InfoPlist.strings287026132#287026132#0(0"0(0#0#88
 CCopyStringsFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
 r0
 
+CCopyStringsFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
 CCopyTiffFile "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif" haplomeconnect.tif
 s287026132.718883
 e287026132.829911
@@ -1586,6 +2309,9 @@ xhaplomeconnect.tif
 lSLF07#2@23"Copy haplomeconnect.tif287026132#287026132#0(0"0(0#0#75"/Users/todd/Documents/Apple Dev Projects/haplome connect/haplomeconnect.tif4300903632#296"    cd "/Users/todd/Documents/Apple Dev Projects/haplome connect"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff haplomeconnect.tif --outdir "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Resources"0#
 
 CCopyTiffFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif" haplomeconnect.tif
+r0
+
+CCopyTiffFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Resources/haplomeconnect.tif" haplomeconnect.tif
 r0
 
 CCpResource "build/Release/haplome connect.app/Contents/Resources/icon.png" icon.png
@@ -1617,6 +2343,16 @@ xnormal
 xi386 ppc
 lSLF07#2@106"CreateUniversalBinary "build/Release/haplome connect.app/Contents/MacOS/haplome connect" normal "i386 ppc"310672600#310672600#0(0"0(0#0#66"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/i386 ppc8616568768#533"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    /usr/bin/lipo -create "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect" -output "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"0#
 
+CCreateUniversalBinary "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect" normal "i386 ppc"
+s310699600.880843
+e310699600.885876
+r1
+xCreateUniversalBinary
+x/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect
+xnormal
+xi386 ppc
+lSLF07#2@106"CreateUniversalBinary "build/Release/haplome connect.app/Contents/MacOS/haplome connect" normal "i386 ppc"310699600#310699600#0(0"0(0#0#54"/Users/todd/Documents/haplome/haplome connect/i386 ppc8621038560#485"    cd "/Users/todd/Documents/haplome/haplome connect"    /usr/bin/lipo -create "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect" -output "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"0#
+
 CGenerateDSYMFile "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app.dSYM" "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"
 s287026142.386189
 e287026142.510206
@@ -1634,6 +2370,15 @@ xGenerateDSYMFile
 x/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app.dSYM
 x/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect
 lSLF07#2@124"GenerateDSYMFile "build/Release/haplome connect.app.dSYM" "build/Release/haplome connect.app/Contents/MacOS/haplome connect"310672600#310672600#0(0"0(0#0#122"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect8616349248#326"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    /Developer/usr/bin/dsymutil "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect" -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app.dSYM" "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect"
+s310699600.885975
+e310699600.918471
+r1
+xGenerateDSYMFile
+x/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app.dSYM
+x/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect
+lSLF07#2@124"GenerateDSYMFile "build/Release/haplome connect.app.dSYM" "build/Release/haplome connect.app/Contents/MacOS/haplome connect"310699600#310699600#0(0"0(0#0#110"/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect8636249536#290"    cd "/Users/todd/Documents/haplome/haplome connect"    /Developer/usr/bin/dsymutil "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/MacOS/haplome connect" -o "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app.dSYM"0#
 
 CLd "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" normal i386
 s287026140.245827
@@ -1675,6 +2420,26 @@ xnormal
 xppc
 lSLF07#2@155"Link /Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect310672600#310672600#0(0"0(0#0#0"8617783360#834"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks -filelist "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework CoreServices -o "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect"0#
 
+CLd "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect" normal i386
+s310699600.843716
+e310699600.880744
+r1
+xLd
+x/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect
+xnormal
+xi386
+lSLF07#2@144"Link /Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect310699600#310699600#0(0"0(0#0#0"8636236448#777"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/todd/Documents/haplome/haplome connect/build/Release" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks -filelist "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework CoreServices -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/i386/haplome connect"0#
+
+CLd "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect" normal ppc
+s310699600.787517
+e310699600.846313
+r1
+xLd
+x/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect
+xnormal
+xppc
+lSLF07#2@143"Link /Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect310699600#310699600#0(0"0(0#0#0"8636435776#774"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/todd/Documents/haplome/haplome connect/build/Release" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks -filelist "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework CoreServices -o "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/Objects-normal/ppc/haplome connect"0#
+
 CProcessInfoPlistFile "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Info.plist" Info.plist
 s287026132.606529
 e287026132.609205
@@ -1685,6 +2450,9 @@ xInfo.plist
 lSLF07#2@18"Process Info.plist287026132#287026132#0(0"0(0#0#67"/Users/todd/Documents/Apple Dev Projects/haplome connect/Info.plist3419204512356397056#382"    cd "/Users/todd/Documents/Apple Dev Projects/haplome connect"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/todd/Documents/Apple Dev Projects/haplome connect/build/Release/haplome connect.app/Contents/Info.plist"0#
 
 CProcessInfoPlistFile "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app/Contents/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app/Contents/Info.plist" Info.plist
 r0
 
 CProcessPCH "/var/folders/f6/f6foWP0RHqumAcQoearr3k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-bftblifiuvxwkjebiturlhkbvmzd/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -1732,6 +2500,32 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile haplome connect_Prefix.pch310672594#310672597#0(0"0(0#0#84"/Users/todd/Documents/Archive/Code/iPhone/haplome connect/haplome connect_Prefix.pch8614293120#1849"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/include" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/haplome connect_Prefix.pch" -o "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-cpswlizqpsappmfboabhihooumdj/haplome connect_Prefix.pch.gch"0#
 
+CProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
+s310689566.682134
+e310689569.556585
+r1
+xProcessPCH
+x/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch.gch
+xhaplome connect_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile haplome connect_Prefix.pch310689566#310689569#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome connect/haplome connect_Prefix.pch8602437472#1729"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/ppc" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -c "/Users/todd/Documents/haplome/haplome connect/haplome connect_Prefix.pch" -o "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dbnqkbbontzffgebpxcrcupxqfwu/haplome connect_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s310689566.671601
+e310689569.637439
+r1
+xProcessPCH
+x/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch.gch
+xhaplome connect_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile haplome connect_Prefix.pch310689566#310689569#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome connect/haplome connect_Prefix.pch7142820529704824832#1721"    cd "/Users/todd/Documents/haplome/haplome connect"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-generated-files.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-own-target-headers.hmap" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-all-target-headers.hmap" -iquote "/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/haplome connect-project-headers.hmap" "-F/Users/todd/Documents/haplome/haplome connect/build/Release" -F/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks "-I/Users/todd/Documents/haplome/haplome connect/build/Release/include" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources/i386" "-I/Users/todd/Documents/haplome/haplome connect/build/haplome connect.build/Release/haplome connect.build/DerivedSources" -c "/Users/todd/Documents/haplome/haplome connect/haplome connect_Prefix.pch" -o "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-dtfsyyzhvtcwlphhhunfahrsnjdb/haplome connect_Prefix.pch.gch"0#
+
 CProcessPCH "/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome connect_Prefix-equscgumpxlxhjcjtbdmqbfhskgz/haplome connect_Prefix.pch.gch" "haplome connect_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310672594.254998
 e310672597.390245
@@ -1760,4 +2554,12 @@ r1
 xTouch
 x/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app
 lSLF07#2@97"Touch /Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app310672600#310672600#0(0"0(0#0#0"8614405248#183"    cd "/Users/todd/Documents/Archive/Code/iPhone/haplome connect"    /usr/bin/touch -c "/Users/todd/Documents/Archive/Code/iPhone/haplome connect/build/Release/haplome connect.app"0#
+
+CTouch "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app"
+s310699600.918590
+e310699600.925769
+r1
+xTouch
+x/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app
+lSLF07#2@85"Touch /Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app310699600#310699600#0(0"0(0#0#0"8620576928#159"    cd "/Users/todd/Documents/haplome/haplome connect"    /usr/bin/touch -c "/Users/todd/Documents/haplome/haplome connect/build/Release/haplome connect.app"0#
 

@@ -174,15 +174,17 @@
 			[self _showAlert:@"Failed sending data to peer"];
 }
 
-/*- (void) activateView:(TapView*)view
+- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y
 {
-	//[self send:[view tag] | 0x80];
+	NSUInteger tagValue;
+	tagValue = x * 10 + y +1;
+	[self send:tagValue | 0x80];
 }
 
-- (void) deactivateView:(TapView*)view
+- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
 {
 	//[self send:[view tag] & 0x7f];
-}*/
+}
 
 - (void) openStreams
 {
@@ -259,7 +261,7 @@
 							yValue = b - xValue;
 							yValue = yValue / 10;
 						}
-						[mainViewController lightOn:xValue withCol:yValue];
+						[mainViewController lightOn:yValue withCol:xValue];
 					} else {
 						if(b < 10){
 							xValue = b - 1;
@@ -269,7 +271,7 @@
 							yValue = b - xValue;
 							yValue = yValue / 10;
 						}
-						[mainViewController lightOff:xValue withCol:yValue];
+						[mainViewController lightOff:yValue withCol:xValue];
 					}
 				}
 			}
