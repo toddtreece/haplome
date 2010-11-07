@@ -28,16 +28,19 @@
 
 }
 
+
 - (void)lightOn:(int)rowVal withCol:(int)colVal {
-	[[[[self.view buttonArray] objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
-	[[[[self.view buttonArray] objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor redColor] forKey:@"fill"];
-	[self.view setNeedsDisplay];
+	MainView *mainView = (MainView *)self.view;
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor redColor] forKey:@"fill"];
+	[mainView setNeedsDisplay];
 }
 
 - (void)lightOff:(int)rowVal withCol:(int)colVal {
-	[[[[self.view buttonArray] objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
-	[[[[self.view buttonArray] objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor whiteColor] forKey:@"fill"];
-	[self.view setNeedsDisplay];
+	MainView *mainView = (MainView *)self.view;
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor whiteColor] forKey:@"fill"];
+	[mainView setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning {

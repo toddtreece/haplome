@@ -30,6 +30,7 @@
     
     // Override point for customization after application launch.
     
+	[UIApplication sharedApplication].idleTimerDisabled = YES;
     [self.window makeKeyAndVisible];
 	mainViewController = [MainViewController alloc];
 	[window addSubview:mainViewController.view];
@@ -138,10 +139,7 @@
 	[self presentPicker:nil];
 }
 
-// Make sure to let the user know what name is being used for Bonjour advertisement.
-// This way, other players can browse for and connect to this haplome.
-// Note that this may be called while the alert is already being displayed, as
-// Bonjour may detect a name conflict and rename dynamically.
+
 - (void) presentPicker:(NSString*)name {
 	if (!_picker) {
 		_picker = [[Picker alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] type:[TCPServer bonjourTypeFromIdentifier:kHaplomeIdentifier]];
@@ -183,8 +181,11 @@
 
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
 {
-	//[self send:[view tag] & 0x7f];
+	NSUInteger tagValue;
+	tagValue = x * 10 + y +1;
+	[self send:tagValue & 0x7f];
 }
+
 
 - (void) openStreams
 {

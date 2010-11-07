@@ -72,49 +72,27 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 		self.opaque = YES;
 		self.backgroundColor = [UIColor blackColor];
 		
-		UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg.png"]];
-		[self addSubview:img];
-		[img release];
+		if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner_768.png"]];
+			[self addSubview:img];
+			[img release];	
+			[self.bvc.view setFrame:CGRectMake(0, 174, self.bounds.size.width, self.bounds.size.height)];
+		} else {
+			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner_320.png"]];
+			[self addSubview:img];
+			[img release];
+			[self.bvc.view setFrame:CGRectMake(0, 87, self.bounds.size.width, self.bounds.size.height)];
+		}
 		
-		CGFloat runningY = kOffset;
-		CGFloat width = self.bounds.size.width - 2 * kOffset;
-		UILabel* label = [[UILabel alloc] initWithFrame:CGRectZero];
-		[label setTextAlignment:UITextAlignmentCenter];
-		[label setFont:[UIFont boldSystemFontOfSize:15.0]];
-		[label setTextColor:[UIColor whiteColor]];
-		[label setShadowColor:[UIColor colorWithWhite:0.0 alpha:0.75]];
-		[label setShadowOffset:CGSizeMake(1,1)];
-		[label setBackgroundColor:[UIColor clearColor]];
-		label.text = @"haplome v1.1 running on:";
-		label.numberOfLines = 1;
-		[label sizeToFit];
-		label.frame = CGRectMake(kOffset, runningY, width, label.frame.size.height);
-		//[self addSubview:label];
-		runningY += label.bounds.size.height;
-		[label release];
-		self.haplomeNameLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-		[self.haplomeNameLabel setTextAlignment:UITextAlignmentCenter];
-		[self.haplomeNameLabel setFont:[UIFont boldSystemFontOfSize:24.0]];
-		[self.haplomeNameLabel setLineBreakMode:UILineBreakModeTailTruncation];
-		[self.haplomeNameLabel setTextColor:[UIColor whiteColor]];
-		[self.haplomeNameLabel setShadowColor:[UIColor colorWithWhite:0.0 alpha:0.75]];
-		[self.haplomeNameLabel setShadowOffset:CGSizeMake(1,1)];
-		[self.haplomeNameLabel setBackgroundColor:[UIColor clearColor]];
-		[self.haplomeNameLabel setText:@"Default Name"];
-		[self.haplomeNameLabel sizeToFit];
-		[self.haplomeNameLabel setFrame:CGRectMake(kOffset, runningY, width, self.haplomeNameLabel.frame.size.height)];
-		[self.haplomeNameLabel setText:@""];
-		//[self addSubview:self.haplomeNameLabel];
-		runningY += self.haplomeNameLabel.bounds.size.height + kOffset * 2;
-		
-		runningY += label.bounds.size.height + 2;
-		
-		[self.bvc.view setFrame:CGRectMake(0, runningY, self.bounds.size.width, self.bounds.size.height - runningY)];
 		[self addSubview:self.bvc.view];
 		
 	}
 
 	return self;
+}
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return YES;
 }
 
 

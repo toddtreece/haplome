@@ -115,7 +115,25 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-
+	AppDelegate_iPhone *appDelegate = (AppDelegate_iPhone *)[[UIApplication sharedApplication] delegate];
+	NSUInteger x,y;
+	NSDictionary *dictionary;
+	for(y = 0; y < yNumPads; ++y) {
+		for(x = 0; x < xNumPads; ++x) {
+			dictionary = [NSDictionary dictionaryWithDictionary:[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]]];
+			rectObject = [dictionary objectForKey:@"rect"];
+			for (UITouch *touch in touches){
+				CGPoint location = [touch locationInView:self];
+				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
+					[appDelegate deactivateView:x withCol:y];
+					/*[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] removeObjectForKey:@"fill"];				
+					 [[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] setObject:[UIColor redColor] forKey:@"fill"];
+					 [self setNeedsDisplay];*/
+				}
+			}
+			
+		}
+	}
 }
 
 - (void)dealloc {

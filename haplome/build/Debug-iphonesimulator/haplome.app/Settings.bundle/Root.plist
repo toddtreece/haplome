@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>YOUR_PROJECT_NAME</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>whiteColor</string>
+			<key>Key</key>
+			<string>back_pref</string>
+			<key>Title</key>
+			<string>Background Color</string>
+			<key>Titles</key>
+			<array>
+				<string>White</string>
+				<string>Black</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>whiteColor</string>
+				<string>blackColor</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>orangeColor</string>
+			<key>Key</key>
+			<string>color_pref</string>
+			<key>Title</key>
+			<string>Highlight Color</string>
+			<key>Titles</key>
+			<array>
+				<string>Orange</string>
+				<string>Green</string>
+				<string>Blue</string>
+				<string>Red</string>
+				<string>Yellow</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>orangeColor</string>
+				<string>greenColor</string>
+				<string>blueColor</string>
+				<string>redColor</string>
+				<string>yellowColor</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>8</integer>
+			<key>Key</key>
+			<string>xval_pref</string>
+			<key>Title</key>
+			<string>Grid Rows</string>
+			<key>Titles</key>
+			<array>
+				<string>2 Rows</string>
+				<string>4 Rows</string>
+				<string>8 Rows</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>2</integer>
+				<integer>4</integer>
+				<integer>8</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>8</integer>
+			<key>Key</key>
+			<string>yval_pref</string>
+			<key>Title</key>
+			<string>Grid Columns</string>
+			<key>Titles</key>
+			<array>
+				<string>2 Columns</string>
+				<string>4 Columns</string>
+				<string>8 Columns</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>2</integer>
+				<integer>4</integer>
+				<integer>8</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Flip Orientation</string>
+			<key>Key</key>
+			<string>orient</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

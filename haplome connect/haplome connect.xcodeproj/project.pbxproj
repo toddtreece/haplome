@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		5F46B4480E9A97470053C977 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F46B4470E9A97470053C977 /* icon.png */; };
+		5F6C21981285ECB20050318C /* haplome_connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C21971285ECB20050318C /* haplome_connect.png */; };
+		5F6C219A1285ECC20050318C /* icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C21991285ECC20050318C /* icon_512.png */; };
 		5F6D9EA70E992BBC00F8B6AC /* haplomeconnect.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5F6D9EA60E992BBC00F8B6AC /* haplomeconnect.tif */; };
 		5F8237730E965F820079E20B /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8237710E965F820079E20B /* TCPServer.m */; };
 		5F8B21F20E95301E00192AE5 /* BBOSCArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B21DE0E95301E00192AE5 /* BBOSCArgument.m */; };
@@ -38,6 +40,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* haplome connect_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "haplome connect_Prefix.pch"; sourceTree = "<group>"; };
 		5F46B4470E9A97470053C977 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5F6C21971285ECB20050318C /* haplome_connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haplome_connect.png; sourceTree = "<group>"; };
+		5F6C21991285ECC20050318C /* icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512.png; sourceTree = "<group>"; };
 		5F6D9EA60E992BBC00F8B6AC /* haplomeconnect.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = haplomeconnect.tif; sourceTree = "<group>"; };
 		5F8237710E965F820079E20B /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
 		5F8237720E965F820079E20B /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				5F6D9EA60E992BBC00F8B6AC /* haplomeconnect.tif */,
+				5F6C21991285ECC20050318C /* icon_512.png */,
+				5F6C21971285ECB20050318C /* haplome_connect.png */,
 				5F46B4470E9A97470053C977 /* icon.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -235,6 +241,8 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				5F6D9EA70E992BBC00F8B6AC /* haplomeconnect.tif in Resources */,
 				5F46B4480E9A97470053C977 /* icon.png in Resources */,
+				5F6C21981285ECB20050318C /* haplome_connect.png in Resources */,
+				5F6C219A1285ECC20050318C /* icon_512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
