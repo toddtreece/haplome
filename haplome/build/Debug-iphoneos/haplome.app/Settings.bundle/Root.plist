@@ -98,20 +98,6 @@
 				<integer>8</integer>
 			</array>
 		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
-			<key>Title</key>
-			<string>Flip Orientation</string>
-			<key>Key</key>
-			<string>orient</string>
-			<key>DefaultValue</key>
-			<false/>
-			<key>TrueValue</key>
-			<true/>
-			<key>FalseValue</key>
-			<false/>
-		</dict>
 	</array>
 </dict>
 </plist>

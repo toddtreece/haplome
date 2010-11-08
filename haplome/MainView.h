@@ -11,11 +11,13 @@
 	CGContextRef ctx;
 	int yNumPads;
 	int xNumPads;
+	NSString * backColor;
 	NSDictionary *buttonArray;
 	NSValue *rectObject;
 	BOOL setup;
 }
 @property (nonatomic,retain) NSDictionary *buttonArray;
 @property (nonatomic,retain) NSValue *rectObject;
+@property (nonatomic,retain) NSString * backColor;
 -(void)setupView;
 @end

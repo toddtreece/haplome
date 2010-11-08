@@ -275,8 +275,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>21</integer>
+									<integer>7</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,12 +311,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>AppController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>AppController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5F6C21A31285EE190050318C</string>
+										<string>5F035130128730A9002B70C2</string>
 										<key>history</key>
 										<array>
 											<string>5F8B244C0E95474A00192AE5</string>
@@ -357,11 +359,11 @@
 											<string>5FEFF2DD113C3DDF0088A8B5</string>
 											<string>5FEFF2DE113C3DDF0088A8B5</string>
 											<string>5FE2FCD31284E91A003EC096</string>
-											<string>5F6C219F1285EE190050318C</string>
 											<string>5F6C21A01285EE190050318C</string>
 											<string>5F6C21A11285EE190050318C</string>
 											<string>5F6C21A21285EE190050318C</string>
-											<string>5FEFF2D8113C3DDF0088A8B5</string>
+											<string>5F7742091286F68D0099C03B</string>
+											<string>5F77424B12870B4C0099C03B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -373,14 +375,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 450}}</string>
+								<string>{{0, 0}, {1072, 413}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>450pt</string>
+							<string>413pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -393,14 +395,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 455}, {1072, 223}}</string>
+								<string>{{0, 418}, {1072, 260}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>223pt</string>
+							<string>260pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -419,9 +421,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5F6C216F1285E4BE0050318C</string>
+				<string>5F03512D12873047002B70C2</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5F6C21701285E4BE0050318C</string>
+				<string>5F03512E12873047002B70C2</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -557,10 +559,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5F6C217A1285E4BE0050318C</string>
-		<string>5F6C217B1285E4BE0050318C</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5F8B22160E95318C00192AE5</string>
 		<string>/Users/todd/Documents/haplome/haplome connect/haplome connect.xcodeproj</string>
 	</array>
@@ -642,7 +640,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5F8B22160E95318C00192AE5</string>
-				<string>5F6C21711285E4BE0050318C</string>
+				<string>5F03512F12873047002B70C2</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

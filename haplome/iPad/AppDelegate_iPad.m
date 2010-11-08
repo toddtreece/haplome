@@ -3,6 +3,7 @@
 //  haplome
 //
 //  Created by Todd Treece on 11/2/10.
+//  Copyright 2010 Todd Treece. All rights reserved.
 //
 
 #import "AppDelegate_iPad.h"

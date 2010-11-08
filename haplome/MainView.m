@@ -12,6 +12,7 @@
 @implementation MainView
 @synthesize buttonArray;
 @synthesize rectObject;
+@synthesize backColor;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -49,22 +50,37 @@
 	NSUInteger x,y;
 	int yvalue;
 	int xvalue;
-	yNumPads = 8;
-	xNumPads = 8;
-	// setup basics
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"] != nil) {
+		yNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
+		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] intValue];
+		backColor = [[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"];
+	} else {
+		yNumPads=8;
+		xNumPads=8;
+		backColor = @"whiteColor";
+	}
 	NSMutableDictionary *yArray = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *xArray = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *propertyArray = [[NSMutableDictionary alloc] init];
-	[[UIColor whiteColor] setFill];
-	[[UIColor blackColor] setStroke];
+	[[UIColor performSelector:NSSelectorFromString(backColor)] setFill];
+	if([backColor isEqualToString:@"whiteColor"]){
+		[[UIColor blackColor] setStroke];
+	} else {
+		[[UIColor whiteColor] setStroke];
+	}
 	for(y = 0; y < yNumPads; ++y) {
 		for(x = 0; x < xNumPads; ++x) {
 			yvalue = yNumPads - y - 1;
 			xvalue = xNumPads - x - 1;
 			rectObject = [NSValue valueWithCGRect:CGRectMake(self.frame.origin.x + x * self.frame.size.width / (float)xNumPads, self.frame.origin.y + y * self.frame.size.height / (float)yNumPads, self.frame.size.width / (float)xNumPads, self.frame.size.height / (float)yNumPads)];
 			[propertyArray setObject:rectObject forKey:@"rect"];
-			[propertyArray setObject:[UIColor whiteColor] forKey:@"fill"];
-			[propertyArray setObject:[UIColor blackColor]	forKey:@"stroke"];
+			[propertyArray setObject:[UIColor performSelector:NSSelectorFromString(backColor)] forKey:@"fill"];
+			if([backColor isEqualToString:@"whiteColor"]){
+				[propertyArray setObject:[UIColor blackColor]	forKey:@"stroke"];
+			} else {
+				[propertyArray setObject:[UIColor whiteColor]	forKey:@"stroke"];
+			}
+			
 			NSMutableDictionary *tempdDict = [[NSMutableDictionary alloc] init];
 			[tempdDict setDictionary:propertyArray];
 			[xArray setObject:tempdDict forKey:[NSNumber numberWithInt:xvalue]];
@@ -97,12 +113,8 @@
 				CGPoint location = [touch locationInView:self];
 				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
 					[appDelegate activateView:x withCol:y];
-					/*[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] removeObjectForKey:@"fill"];				
-					[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] setObject:[UIColor redColor] forKey:@"fill"];
-					[self setNeedsDisplay];*/
 				}
 			}
-
 		}
 	}
 }
@@ -110,8 +122,7 @@
 
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	//UITouch *touch = [touches anyObject];
-
+	
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -126,19 +137,17 @@
 				CGPoint location = [touch locationInView:self];
 				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
 					[appDelegate deactivateView:x withCol:y];
-					/*[[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] removeObjectForKey:@"fill"];				
-					 [[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]] setObject:[UIColor redColor] forKey:@"fill"];
-					 [self setNeedsDisplay];*/
 				}
 			}
-			
 		}
 	}
 }
 
 - (void)dealloc {
+	[backColor release];
+	[buttonArray release];
+	[rectObject release];
     [super dealloc];
 }
-
 
 @end
