@@ -51,13 +51,19 @@
 	int yvalue;
 	int xvalue;
 	if([[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"] != nil) {
-		yNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
-		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] intValue];
 		backColor = [[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"];
 	} else {
-		yNumPads=8;
-		xNumPads=8;
 		backColor = @"whiteColor";
+	}
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] != nil) {
+		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
+	} else {
+		xNumPads=8;
+	}
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] != nil) {
+		yNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] intValue];
+	} else {
+		yNumPads=8;
 	}
 	NSMutableDictionary *yArray = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *xArray = [[NSMutableDictionary alloc] init];
@@ -76,9 +82,9 @@
 			[propertyArray setObject:rectObject forKey:@"rect"];
 			[propertyArray setObject:[UIColor performSelector:NSSelectorFromString(backColor)] forKey:@"fill"];
 			if([backColor isEqualToString:@"whiteColor"]){
-				[propertyArray setObject:[UIColor blackColor]	forKey:@"stroke"];
+				[propertyArray setObject:[UIColor blackColor] forKey:@"stroke"];
 			} else {
-				[propertyArray setObject:[UIColor whiteColor]	forKey:@"stroke"];
+				[propertyArray setObject:[UIColor whiteColor] forKey:@"stroke"];
 			}
 			
 			NSMutableDictionary *tempdDict = [[NSMutableDictionary alloc] init];

@@ -1,7 +1,7 @@
 Thaplome
 v7
 r0
-t310754140.685641
+t310955908.870801
 cCheck dependencies
 cCpResource build/Debug-iphoneos/haplome.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist haplome-Info.plist
@@ -16,6 +16,9 @@ cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.
 cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png icon_72.png
 cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png icon_114.png
 cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png icon_512.png
+cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_320.png banner_320.png
+cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_640.png banner_640.png
+cCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_768.png banner_768.png
 cProcessPCH /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch haplome_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch haplome_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o /Users/todd/Documents/haplome/haplome/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -27,8 +30,8 @@ cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o /Users/todd/Documents/haplome/haplome/Picker.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o /Users/todd/Documents/haplome/haplome/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome normal armv6
+cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -109,29 +112,29 @@ t1286857912
 s22078
 
 N/Users/todd/Documents/haplome/haplome/MainView.h
-c000000004CD4AB2000000000000001AB
-t1289005856
-s427
+c000000004CD6BCA600000000000001F5
+t1289141414
+s501
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainView.m
-c000000004CD4AD330000000000000FC6
-t1289006387
-s4038
+c000000004CD897B4000000000000149A
+t1289263028
+s5274
 i"MainView.h"
 i"AppDelegate_iPad.h"
 i"AppDelegate_iPhone.h"
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.h
-c000000004CD4500A0000000000000145
-t1288982538
-s325
+c000000004CD6C02D00000000000001E0
+t1289142317
+s480
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.m
-c000000004CD57FA80000000000000719
-t1289060264
-s1817
+c000000004CD897DE000000000000086E
+t1289263070
+s2158
 i"MainViewController.h"
 i"MainView.h"
 
@@ -143,9 +146,9 @@ i<UIKit/UIKit.h>
 i<Foundation/NSNetServices.h>
 
 N/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m
-c000000004CD582CB00000000000038FA
-t1289061067
-s14586
+c000000004CD588A6000000000000385D
+t1289062566
+s14429
 i"BrowserViewController.h"
 
 N/Users/todd/Documents/haplome/haplome/Networking/TCPServer.h
@@ -172,21 +175,36 @@ i<UIKit/UIKit.h>
 i"BrowserViewController.h"
 
 N/Users/todd/Documents/haplome/haplome/Picker.m
-c000000004CD582CB00000000000016E7
-t1289061067
-s5863
+c000000004CD59D1A0000000000001196
+t1289067802
+s4502
 i"Picker.h"
 
 N/Users/todd/Documents/haplome/haplome/Settings.bundle
-c000000004CD43E0400000000000000AA
-t1288977924
+c000000004CD8941A00000000000000AA
+t1289262106
 s170
 
 N/Users/todd/Documents/haplome/haplome/Shared/main.m
-c000000004CD059EB0000000000000175
-t1288722923
-s373
+c000000004CD6B82C0000000000000162
+t1289140268
+s354
 i<UIKit/UIKit.h>
+
+N/Users/todd/Documents/haplome/haplome/banner_320.png
+c000000004CD595E7000000000000637C
+t1289065959
+s25468
+
+N/Users/todd/Documents/haplome/haplome/banner_640.png
+c000000004CD595BC00000000000106F8
+t1289065916
+s67320
+
+N/Users/todd/Documents/haplome/haplome/banner_768.png
+c000000004CD59C970000000000010E68
+t1289067671
+s69224
 
 N/Users/todd/Documents/haplome/haplome/bg.png
 c000000004CD43E04000000000000525E
@@ -194,177 +212,189 @@ t1288977924
 s21086
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app
-t1289061340
-s680
+t1289263108
+s782
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app.dSYM
-t1289061340
+t1289263108
 s102
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist
-t1289061336
-s1205
+t1289263104
+s1242
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPad.nib
-t1289061337
+t1289263104
 s982
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPhone.nib
-t1289061336
+t1289263104
 s984
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/PkgInfo
-t1289061336
+t1289263104
 s8
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/ResourceRules.plist
-t1289061336
+t1289263104
 s485
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Settings.bundle
-t1289061337
+t1289263104
 s136
 
+N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_320.png
+t1289263106
+s29281
+
+N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_640.png
+t1289263106
+s72805
+
+N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_768.png
+t1289263106
+s74867
+
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/bg.png
-t1289061337
+t1289263104
 s22575
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_320.png
-t1289061337
-s128702
+t1289263104
+s111122
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_640.png
-t1289061338
-s269604
+t1289263105
+s297029
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_768.png
-t1289061338
-s406829
+t1289263106
+s362838
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision
-t1289061340
+t1289263108
 s7238
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome
-t1289061340
-s161308
+t1289263108
+s181120
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png
-t1289061338
+t1289263105
 s6905
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png
-t1289061338
-s35645
+t1289263106
+s37315
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_57.png
-t1289061338
+t1289263105
 s4444
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png
-t1289061338
+t1289263105
 s4537
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPad.o
-t1289061339
-s50412
+t1289263107
+s75144
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPhone.o
-t1289061339
-s75544
+t1289263107
+s76000
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/BrowserViewController.o
-t1289061339
-s75804
+t1289263107
+s75344
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainView.o
-t1289061339
-s59480
+t1289263107
+s64548
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainViewController.o
-t1289061339
-s44128
+t1289263107
+s48136
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o
-t1289061339
-s51412
+t1289263108
+s47676
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o
-t1289061339
+t1289263107
 s29516
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome
-t1289061339
-s79996
+t1289263108
+s87288
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome.LinkFileList
-c000000004CD583D800000000000003DC
-t1289061336
+c000000004CD8980000000000000003DC
+t1289263104
 s988
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o
-t1289061339
+t1289263107
 s6460
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o
-t1289061340
-s50332
+t1289263108
+s74472
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o
-t1289061339
-s74876
+t1289263108
+s75324
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/BrowserViewController.o
-t1289061340
-s75088
+t1289263108
+s74632
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o
-t1289061340
-s58572
+t1289263108
+s63632
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o
-t1289061340
-s43932
+t1289263108
+s47832
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/Picker.o
-t1289061340
-s50692
+t1289263108
+s47436
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/TCPServer.o
-t1289061340
+t1289263108
 s29068
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome
-t1289061340
-s75292
+t1289263108
+s86912
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome.LinkFileList
-c000000004CD583D800000000000003DC
-t1289061336
+c000000004CD8980000000000000003DC
+t1289263104
 s988
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o
-t1289061339
+t1289263108
 s6444
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent
-t1289061340
+t1289263108
 s418
 
 N/Users/todd/Documents/haplome/haplome/default_320.png
-c000000004CD58346000000000001DC1B
-t1289061190
-s121883
+c000000004CD59275000000000001749C
+t1289065077
+s95388
 
 N/Users/todd/Documents/haplome/haplome/default_640.png
-c000000004CD5831F000000000003AFB5
-t1289061151
-s241589
+c000000004CD5925A0000000000040329
+t1289065050
+s262953
 
 N/Users/todd/Documents/haplome/haplome/default_768.png
-c000000004CD583370000000000062C97
-t1289061175
-s404631
+c000000004CD59160000000000004F6A1
+t1289064800
+s325281
 
 N/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch
 c000000004CD059EB00000000000000B7
@@ -374,17 +404,21 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h
-c000000004CD4128400000000000001D8
-t1288966788
-s472
+c000000004CD6B7FE000000000000036F
+t1289140222
+s879
 i<UIKit/UIKit.h>
+i"BrowserViewController.h"
+i"Picker.h"
+i"TCPServer.h"
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m
-c000000004CD443390000000000000724
-t1288979257
-s1828
+c000000004CD6B80E0000000000001F11
+t1289140238
+s7953
 i"AppDelegate_iPad.h"
 i"MainViewController.h"
+i"Picker.h"
 
 N/Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib
 c000000004CD059EB00000000000036DB
@@ -392,18 +426,18 @@ t1288722923
 s14043
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.h
-c000000004CD4AB5E0000000000000385
-t1289005918
-s901
+c000000004CD6B7EC0000000000000372
+t1289140204
+s882
 i<UIKit/UIKit.h>
 i"BrowserViewController.h"
 i"Picker.h"
 i"TCPServer.h"
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m
-c000000004CD57EE700000000000021E5
-t1289060071
-s8677
+c000000004CD6B7DD000000000000223C
+t1289140189
+s8764
 i"AppDelegate_iPhone.h"
 i"MainViewController.h"
 i"Picker.h"
@@ -419,9 +453,9 @@ t1289055788
 s7201
 
 N/Users/todd/Documents/haplome/haplome/icon_512.png
-c000000004CD56E9700000000000091F5
-t1289055895
-s37365
+c000000004CD5B67D000000000000A401
+t1289074301
+s41985
 
 N/Users/todd/Documents/haplome/haplome/icon_57.png
 c000000004CD56E540000000000001185
@@ -439,33 +473,33 @@ t1288905227
 s7238
 
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch
-t1289061339
+t1289263107
 s9983704
 
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch
-t1289061339
+t1289263107
 s10446552
 
 Nhaplome-Info.plist
-c000000004CD5744C00000000000005F0
-t1289057356
-s1520
+c000000004CD68CA70000000000000621
+t1289129127
+s1569
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies310754136#310754136#0(0"0(0#1#0"8598823488#0"0#
+lSLF07#2@18"Check dependencies310955904#310955904#0(0"0(0#1#0"8609724800#0"0#
 
 CCodeSign /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app
-s310754140.463425
-e310754140.685597
+s310955908.667332
+e310955908.870763
 r1
 xCodeSign
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app
-lSLF07#2@41"CodeSign build/Debug-iphoneos/haplome.app310754140#310754140#0(0"0(0#0#70"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app8604194496#643"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Todd Treece (MBJXCZVJZL)" --resource-rules=/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/ResourceRules.plist --entitlements /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
+lSLF07#2@41"CodeSign build/Debug-iphoneos/haplome.app310955908#310955908#0(0"0(0#0#70"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app8621252832#643"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Todd Treece (MBJXCZVJZL)" --resource-rules=/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/ResourceRules.plist --entitlements /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.373495
-e310754139.467698
+s310955907.541249
+e310955907.694417
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPad.o
@@ -474,11 +508,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m310754139#310754139#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8604062784#1742"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPad.o0#
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m310955907#310955907#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8610497312#1742"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPad.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.314659
-e310754139.468967
+s310955907.486133
+e310955907.652287
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPhone.o
@@ -487,11 +521,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m310754139#310754139#0(0"0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8612927520#1748"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m310955907#310955907#0(0"0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8612143008#1748"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/BrowserViewController.o /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.558636
-e310754139.733430
+s310955907.795541
+e310955907.979050
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/BrowserViewController.o
@@ -500,11 +534,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m310754139#310754139#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8612898592#1758"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/BrowserViewController.o0#
+lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m310955907#310955907#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8623091008#1758"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/BrowserViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.467803
-e310754139.614523
+s310955907.652398
+e310955907.816080
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainView.o
@@ -513,11 +547,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m310754139#310754139#0(0"0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8598717088#1721"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainView.o0#
+lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m310955907#310955907#0(0"0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8624284096#1721"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainView.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.469044
-e310754139.558523
+s310955907.694563
+e310955907.795441
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainViewController.o
@@ -526,11 +560,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m310754139#310754139#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8613372640#1741"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainViewController.o0#
+lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m310955907#310955907#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8623918240#1741"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/MainViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o /Users/todd/Documents/haplome/haplome/Picker.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.733689
-e310754139.860625
+s310955907.922429
+e310955908.032392
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o
@@ -539,11 +573,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m310754139#310754139#0(0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8613878240#1717"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o0#
+lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m310955907#310955908#0(0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8620941760#1717"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/Picker.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.614655
-e310754139.734875
+s310955907.816187
+e310955907.922165
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o
@@ -557,11 +591,11 @@ o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSO
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)
-lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310754139#310754139#0(580"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m: In function '-[TCPServer netService:didNotPublish:]':/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSObject' may not respond to '-netServiceDidPublish:'/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)2(22@54"'NSObject' may not respond to '-netServiceDidPublish:'310754139#116#130#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310754139#246#121#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#0"0(0#0#60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m8615091488#1734"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o0#
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310955907#310955907#0(580"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m: In function '-[TCPServer netService:didNotPublish:]':/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSObject' may not respond to '-netServiceDidPublish:'/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)2(22@54"'NSObject' may not respond to '-netServiceDidPublish:'310955907#116#130#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310955907#246#121#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#0"0(0#0#60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m8621976320#1734"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/TCPServer.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o /Users/todd/Documents/haplome/haplome/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754139.313555
-e310754139.373395
+s310955907.485045
+e310955907.541149
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o
@@ -570,11 +604,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m310754139#310754139#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8613748000#1720"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o0#
+lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m310955907#310955907#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8612414080#1720"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/main.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754139.937531
-e310754140.028261
+s310955908.078580
+e310955908.216653
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o
@@ -583,11 +617,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m310754139#310754140#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8599579488#1742"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o0#
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m310955908#310955908#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8623062688#1742"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPad.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754139.795995
-e310754139.937432
+s310955908.041448
+e310955908.248237
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o
@@ -596,11 +630,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m310754139#310754139#0(0"0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8612900192#1748"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
+lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m310955908#310955908#0(0"0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8623533728#1748"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/BrowserViewController.o /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754140.112709
-e310754140.307661
+s310955908.351390
+e310955908.537599
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/BrowserViewController.o
@@ -609,11 +643,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m310754140#310754140#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8615210240#1758"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/BrowserViewController.o0#
+lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m310955908#310955908#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8620589792#1758"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/BrowserViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754139.986677
-e310754140.112613
+s310955908.216758
+e310955908.372460
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o
@@ -622,11 +656,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m310754139#310754140#0(0"0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8615928704#1721"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o0#
+lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m310955908#310955908#0(0"0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8623842112#1721"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainView.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754140.028558
-e310754140.119014
+s310955908.248339
+e310955908.351292
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o
@@ -635,11 +669,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m310754140#310754140#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8615577504#1741"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o0#
+lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m310955908#310955908#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8623318880#1741"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/MainViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/Picker.o /Users/todd/Documents/haplome/haplome/Picker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754140.243746
-e310754140.346183
+s310955908.484668
+e310955908.571050
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/Picker.o
@@ -648,11 +682,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m310754140#310754140#0(0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8615524320#1717"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/Picker.o0#
+lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m310955908#310955908#0(0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8623858240#1717"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/Picker.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/TCPServer.o /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754140.119113
-e310754140.243648
+s310955908.372560
+e310955908.484561
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/TCPServer.o
@@ -666,11 +700,11 @@ o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSO
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept
 o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)
-lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310754140#310754140#0(580"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m: In function '-[TCPServer netService:didNotPublish:]':/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSObject' may not respond to '-netServiceDidPublish:'/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)2(22@54"'NSObject' may not respond to '-netServiceDidPublish:'310754140#116#130#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310754140#246#121#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#0"0(0#0#60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m8614507744#1734"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/TCPServer.o0#
+lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310955908#310955908#0(580"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m: In function '-[TCPServer netService:didNotPublish:]':/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSObject' may not respond to '-netServiceDidPublish:'/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)2(22@54"'NSObject' may not respond to '-netServiceDidPublish:'310955908#116#130#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)310955908#246#121#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#0"0(0#0#60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m8621815296#1734"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/TCPServer.o0#
 
 CCompileC build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o /Users/todd/Documents/haplome/haplome/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754139.734957
-e310754139.795895
+s310955907.979157
+e310955908.041345
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o
@@ -679,165 +713,192 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m310754139#310754139#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8613444000#1720"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o0#
+lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m310955907#310955908#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8624785792#1720"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/main.o0#
 
 CCompileXIB /Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib
-s310754136.600182
-e310754137.056245
+s310955904.290535
+e310955904.680558
 r1
 xCompileXIB
 x/Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib
-lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib310754136#310754137#0(0"0(0#0#62"/Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib8612850880#554"    cd /Users/todd/Documents/haplome/haplome    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPad.nib /Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib310955904#310955904#0(0"0(0#0#62"/Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib8624394240#554"    cd /Users/todd/Documents/haplome/haplome    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPad.nib /Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB /Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib
-s310754136.599436
-e310754137.002043
+s310955904.289799
+e310955904.680414
 r1
 xCompileXIB
 x/Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib
-lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib310754136#310754137#0(0"0(0#0#66"/Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib28429445101453416#560"    cd /Users/todd/Documents/haplome/haplome    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPhone.nib /Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib310955904#310955904#0(0"0(0#0#66"/Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib8624520160#560"    cd /Users/todd/Documents/haplome/haplome    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/MainWindow_iPhone.nib /Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_320.png banner_320.png
+s310955906.054670
+e310955906.179106
+r1
+xCopyPNGFile
+x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_320.png
+xbanner_320.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/haplome.app/banner_320.png banner_320.png310955906#310955906#0(0"0(0#0#52"/Users/todd/Documents/haplome/haplome/banner_320.png8623776672#565"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/banner_320.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_320.png0#
+
+CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_640.png banner_640.png
+s310955906.179199
+e310955906.506401
+r1
+xCopyPNGFile
+x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_640.png
+xbanner_640.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/haplome.app/banner_640.png banner_640.png310955906#310955906#0(0"0(0#0#52"/Users/todd/Documents/haplome/haplome/banner_640.png8623306912#565"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/banner_640.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_640.png0#
+
+CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_768.png banner_768.png
+s310955906.294153
+e310955906.633665
+r1
+xCopyPNGFile
+x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_768.png
+xbanner_768.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/haplome.app/banner_768.png banner_768.png310955906#310955906#0(0"0(0#0#52"/Users/todd/Documents/haplome/haplome/banner_768.png8622107840#565"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/banner_768.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/banner_768.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/bg.png bg.png
-s310754137.002905
-e310754137.220757
+s310955904.681365
+e310955904.847153
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/bg.png
 xbg.png
-lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/haplome.app/bg.png bg.png310754137#310754137#0(0"0(0#0#44"/Users/todd/Documents/haplome/haplome/bg.png8615519776#549"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/bg.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/bg.png0#
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/haplome.app/bg.png bg.png310955904#310955904#0(0"0(0#0#44"/Users/todd/Documents/haplome/haplome/bg.png8610981696#549"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/bg.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/bg.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_320.png default_320.png
-s310754137.056342
-e310754137.271565
+s310955904.686194
+e310955904.995770
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_320.png
 xdefault_320.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_320.png default_320.png310754137#310754137#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_320.png8615277696#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_320.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_320.png0#
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_320.png default_320.png310955904#310955904#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_320.png8605589376#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_320.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_320.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_640.png default_640.png
-s310754137.220845
-e310754138.124114
+s310955904.847245
+e310955905.804631
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_640.png
 xdefault_640.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_640.png default_640.png310754137#310754138#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_640.png8614289472#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_640.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_640.png0#
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_640.png default_640.png310955904#310955905#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_640.png8621951808#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_640.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_640.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_768.png default_768.png
-s310754137.271660
-e310754138.641381
+s310955904.995863
+e310955906.054579
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_768.png
 xdefault_768.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_768.png default_768.png310754137#310754138#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_768.png8613622304#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_768.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_768.png0#
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/haplome.app/default_768.png default_768.png310955904#310955906#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/default_768.png8623615808#567"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/default_768.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/default_768.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png icon_114.png
-s310754138.194095
-e310754138.261296
+s310955905.875495
+e310955905.942287
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png
 xicon_114.png
-lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_114.png icon_114.png310754138#310754138#0(0"0(0#0#50"/Users/todd/Documents/haplome/haplome/icon_114.png8615177792#561"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_114.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png0#
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_114.png icon_114.png310955905#310955905#0(0"0(0#0#50"/Users/todd/Documents/haplome/haplome/icon_114.png8624814464#561"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_114.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_114.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png icon_512.png
-s310754138.261389
-e310754138.616276
+s310955905.942380
+e310955906.294064
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png
 xicon_512.png
-lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_512.png icon_512.png310754138#310754138#0(0"0(0#0#50"/Users/todd/Documents/haplome/haplome/icon_512.png8612672352#561"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_512.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png0#
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_512.png icon_512.png310955905#310955906#0(0"0(0#0#50"/Users/todd/Documents/haplome/haplome/icon_512.png8624066080#561"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_512.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_512.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_57.png icon_57.png
-s310754138.124245
-e310754138.153638
+s310955905.804825
+e310955905.836121
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_57.png
 xicon_57.png
-lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_57.png icon_57.png310754138#310754138#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/icon_57.png8615816736#559"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_57.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_57.png0#
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_57.png icon_57.png310955905#310955905#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/icon_57.png8623820928#559"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_57.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_57.png0#
 
 CCopyPNGFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png icon_72.png
-s310754138.153730
-e310754138.193993
+s310955905.836219
+e310955905.875389
 r1
 xCopyPNGFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png
 xicon_72.png
-lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_72.png icon_72.png310754138#310754138#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/icon_72.png8615980192#559"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_72.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png0#
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/haplome.app/icon_72.png icon_72.png310955905#310955905#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/icon_72.png8610728448#559"    cd /Users/todd/Documents/haplome/haplome    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/todd/Documents/haplome/haplome/icon_72.png /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/icon_72.png0#
 
 CCpResource build/Debug-iphoneos/haplome.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s310754136.588811
-e310754136.598491
+s310955904.243377
+e310955904.249535
 r1
 xCpResource
 xbuild/Debug-iphoneos/haplome.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist310754136#310754136#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8613882304#492"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist310955904#310955904#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8625001760#492"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
 
 CCpResource build/Debug-iphoneos/haplome.app/Settings.bundle Settings.bundle
-s310754137.002137
-e310754137.009510
+s310955904.680634
+e310955904.686105
 r1
 xCpResource
 xbuild/Debug-iphoneos/haplome.app/Settings.bundle
 xSettings.bundle
-lSLF07#2@20"Copy Settings.bundle310754137#310754137#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/Settings.bundle8615796128#456"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/todd/Documents/haplome/haplome/Settings.bundle /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
+lSLF07#2@20"Copy Settings.bundle310955904#310955904#0(0"0(0#0#53"/Users/todd/Documents/haplome/haplome/Settings.bundle8614363360#456"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/todd/Documents/haplome/haplome/Settings.bundle /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
 
 CCreateUniversalBinary /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome normal "armv6 armv7"
-s310754140.394621
-e310754140.402897
+s310955908.609556
+e310955908.613237
 r1
 xCreateUniversalBinary
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome
 xnormal
 xarmv6 armv7
-lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/haplome.app/haplome normal "armv6 armv7"310754140#310754140#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/armv6 armv78590149312#514"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome -output /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome0#
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/haplome.app/haplome normal "armv6 armv7"310955908#310955908#0(0"0(0#0#49"/Users/todd/Documents/haplome/haplome/armv6 armv78615184064#514"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome -output /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome0#
 
 CGenerateDSYMFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app.dSYM /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome
-s310754140.402992
-e310754140.456197
+s310955908.613328
+e310955908.659770
 r1
 xGenerateDSYMFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app.dSYM
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome
-lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/haplome.app.dSYM build/Debug-iphoneos/haplome.app/haplome310754140#310754140#0(0"0(0#0#78"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome8612644608#359"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app.dSYM0#
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/haplome.app.dSYM build/Debug-iphoneos/haplome.app/haplome310955908#310955908#0(0"0(0#0#78"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome8611900704#359"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/haplome -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app.dSYM0#
 
 CLd /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome normal armv6
-s310754139.860711
-e310754139.986377
+s310955908.032489
+e310955908.078466
 r1
 xLd
 x/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome
 xnormal
 xarmv6
-lSLF07#2@120"Link /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome310754139#310754139#0(0"0(0#0#0"8605013568#854"    cd /Users/todd/Documents/haplome/haplome    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome0#
+lSLF07#2@120"Link /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome310955908#310955908#0(0"0(0#0#0"8624152672#854"    cd /Users/todd/Documents/haplome/haplome    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv6/haplome0#
 
 CLd /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome normal armv7
-s310754140.346280
-e310754140.394512
+s310955908.571149
+e310955908.609459
 r1
 xLd
 x/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome
 xnormal
 xarmv7
-lSLF07#2@120"Link /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome310754140#310754140#0(0"0(0#0#0"8612688160#854"    cd /Users/todd/Documents/haplome/haplome    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome0#
+lSLF07#2@120"Link /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome310955908#310955908#0(0"0(0#0#0"8621224128#854"    cd /Users/todd/Documents/haplome/haplome    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/Objects-normal/armv7/haplome0#
 
 CProcessInfoPlistFile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist haplome-Info.plist
-s310754136.589859
-e310754136.599304
+s310955904.248682
+e310955904.289691
 r1
 xProcessInfoPlistFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist
 xhaplome-Info.plist
-lSLF07#2@26"Process haplome-Info.plist310754136#310754136#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome-Info.plist8613656608#558"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility haplome-Info.plist -genpkginfo /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/ResourceRules.plist -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist0#
+lSLF07#2@26"Process haplome-Info.plist310955904#310955904#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome-Info.plist8624532928#558"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility haplome-Info.plist -genpkginfo /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/ResourceRules.plist -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/Info.plist0#
 
 CProcessPCH /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch haplome_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310754138.641500
-e310754139.299525
+s310955906.633788
+e310955907.468040
 r1
 xProcessPCH
 x/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch
@@ -846,11 +907,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile haplome_Prefix.pch310754138#310754139#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8600268736#1612"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch0#
+lSLF07#2@29"Precompile haplome_Prefix.pch310955906#310955907#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8620876832#1612"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv6 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-dcfiflzvsytyawfdfreooppvjvuv/haplome_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch haplome_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310754138.642416
-e310754139.313450
+s310955906.634710
+e310955907.484884
 r1
 xProcessPCH
 x/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch
@@ -859,31 +920,31 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile haplome_Prefix.pch310754138#310754139#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8616035008#1612"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch0#
+lSLF07#2@29"Precompile haplome_Prefix.pch310955906#310955907#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8615250240#1612"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos -I/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources/armv7 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-evcounitfbdzxifjyoaycoxscljv/haplome_Prefix.pch.gch0#
 
 CProcessProductPackaging "/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision" /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision
-s310754140.456296
-e310754140.457715
+s310955908.660030
+e310955908.661381
 r1
 xProcessProductPackaging
 x/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision
-lSLF07#2@191"ProcessProductPackaging "/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision" build/Debug-iphoneos/haplome.app/embedded.mobileprovision310754140#310754140#0(0"0(0#0#95"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision8604269664#420"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision" -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision0#
+lSLF07#2@191"ProcessProductPackaging "/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision" build/Debug-iphoneos/haplome.app/embedded.mobileprovision310955908#310955908#0(0"0(0#0#95"/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision8612320480#420"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/todd/Library/MobileDevice/Provisioning Profiles/70716ADA-C4ED-4E89-BF9E-B63327BE26A0.mobileprovision" -o /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app/embedded.mobileprovision0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent
-s310754140.461188
-e310754140.463365
+s310955908.665183
+e310955908.667264
 r1
 xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
 x/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent
-lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent310754140#310754140#0(0"0(0#0#100"/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent8599152864#430"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent0#
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent310955908#310955908#0(0"0(0#0#100"/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent8621966176#430"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphoneos/haplome.build/haplome.xcent0#
 
 CTouch /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app
-s310754140.457776
-e310754140.461103
+s310955908.661453
+e310955908.665091
 r1
 xTouch
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app
-lSLF07#2@76"Touch /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app310754140#310754140#0(0"0(0#0#0"8603811648#262"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
+lSLF07#2@76"Touch /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app310955908#310955908#0(0"0(0#0#0"8611096864#262"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/todd/Documents/haplome/haplome/build/Debug-iphoneos/haplome.app0#
 

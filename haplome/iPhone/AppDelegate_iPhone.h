@@ -11,6 +11,7 @@
 #import "Picker.h"
 #import "TCPServer.h"
 @class MainViewController;
+@class Reachability;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate, UIActionSheetDelegate, BrowserViewControllerDelegate, TCPServerDelegate,NSStreamDelegate> {
     UIWindow *window;
 	Picker*				_picker;
@@ -20,11 +21,16 @@
 	BOOL				_inReady;
 	BOOL				_outReady;
 	MainViewController *mainViewController;
+	Reachability* hostReach;
+    Reachability* internetReach;
+    Reachability* wifiReach;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;
+- (void) updateInterfaceWithReachability: (Reachability*) curReach;
+- (void) _showAlert:(NSString*)title;
 @end
 

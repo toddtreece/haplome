@@ -73,15 +73,15 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 		self.backgroundColor = [UIColor blackColor];
 		
 		if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
-			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner_768.png"]];
-			[self addSubview:img];
-			[img release];	
-			[self.bvc.view setFrame:CGRectMake(0, 174, self.bounds.size.width, self.bounds.size.height)];
-		} else {
-			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"banner_320.png"]];
+			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picker_768.png"]];
 			[self addSubview:img];
 			[img release];
-			[self.bvc.view setFrame:CGRectMake(0, 87, self.bounds.size.width, self.bounds.size.height)];
+			[self.bvc.view setFrame:CGRectMake(0, 174, self.bounds.size.width, self.bounds.size.height-348)];
+		} else {
+			UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picker_320.png"]];
+			[self addSubview:img];
+			[img release];
+			[self.bvc.view setFrame:CGRectMake(0, 87, self.bounds.size.width, self.bounds.size.height-174)];
 		}
 		
 		[self addSubview:self.bvc.view];

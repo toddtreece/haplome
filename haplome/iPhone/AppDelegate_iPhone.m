@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate_iPhone.h"
+#import "Reachability.h"
 #import "MainViewController.h"
 #import "Picker.h"
 #define kHaplomeIdentifier		@"haplome"
@@ -31,6 +32,10 @@
     // Override point for customization after application launch.
     
 	[UIApplication sharedApplication].idleTimerDisabled = YES;
+	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+	wifiReach = [[Reachability reachabilityForLocalWiFi] retain];
+	[wifiReach startNotifier];
+	[self updateInterfaceWithReachability: wifiReach];
     [self.window makeKeyAndVisible];
 	mainViewController = [MainViewController alloc];
 	[window addSubview:mainViewController.view];
@@ -38,9 +43,26 @@
     return YES;
 }
 
+- (void) updateInterfaceWithReachability: (Reachability*) curReach {
+	if(curReach == wifiReach) {	
+		NetworkStatus netStatus = [curReach currentReachabilityStatus];
+		if (netStatus == NotReachable){
+			[self _showAlert:@"WiFi Access Not Available. Visit http://unionbridge.org/haplome for support."];
+		}		
+	} else {
+		[self _showAlert:@"WiFi Access Not Available. Visit http://unionbridge.org/haplome for support."];
+	}
+}
+
+- (void) reachabilityChanged: (NSNotification* )note {
+	Reachability* curReach = [note object];
+	NSParameterAssert([curReach isKindOfClass: [Reachability class]]);
+	[self updateInterfaceWithReachability: curReach];
+}
+
 - (void) _showAlert:(NSString*)title
 {
-	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:title message:@"Check your networking configuration." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error!" message:title delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alertView show];
 	[alertView release];
 }

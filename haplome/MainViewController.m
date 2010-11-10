@@ -21,9 +21,12 @@
 	}
 	if([[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"] != nil) {
 		backColor = [[NSUserDefaults standardUserDefaults] stringForKey:@"back_pref"];
-		highlightColor = [[NSUserDefaults standardUserDefaults] stringForKey:@"color_pref"];
 	} else {
 		backColor = @"whiteColor";
+	}
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"color_pref"] != nil) {
+		highlightColor = [[NSUserDefaults standardUserDefaults] stringForKey:@"color_pref"];
+	} else {
 		highlightColor = @"orangeColor";
 	}
 }

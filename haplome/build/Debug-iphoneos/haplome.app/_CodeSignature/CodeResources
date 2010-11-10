@@ -6,11 +6,11 @@
 	<dict>
 		<key>MainWindow_iPad.nib</key>
 		<data>
-		NmE25RvqPoLv+vdmegu6NXi6iXg=
+		Ho6flvS2pG/Scmyn5i8iB4VQY7o=
 		</data>
 		<key>MainWindow_iPhone.nib</key>
 		<data>
-		UVITZFZKkT1Ho/Tq4hUJKBq/lrE=
+		JgoN54/6HdrJJa0QOPpslqqqm5g=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -56,6 +56,18 @@
 		<data>
 		q6sf+VOzzyZA09RucjYheXKMVtg=
 		</data>
+		<key>footer_320.png</key>
+		<data>
+		Tc5SiQf9xWiIPUFYLtt/X4asS7c=
+		</data>
+		<key>footer_640.png</key>
+		<data>
+		DSeVi5jnyXzoSyLfE0Ah8Bf9qc8=
+		</data>
+		<key>footer_768.png</key>
+		<data>
+		OomLMGrT1vCwoMN3l7E1nJ1gURw=
+		</data>
 		<key>icon_114.png</key>
 		<data>
 		VMPqoLyxOdSqA1PCjjdHWt2Zqok=
@@ -71,6 +83,14 @@
 		<key>icon_72.png</key>
 		<data>
 		UuGFxhtOu/E+sMhQoO3/kZtunwY=
+		</data>
+		<key>picker_320.png</key>
+		<data>
+		eVITkja8qPy3LiRqASlgSmyHIYA=
+		</data>
+		<key>picker_768.png</key>
+		<data>
+		m/TAwVVTij0S4m83CJ90e3XrgMQ=
 		</data>
 	</dict>
 	<key>rules</key>
