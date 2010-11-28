@@ -44,11 +44,10 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310849598;
-			PBXWorkspaceStateSaveDate = 310849598;
+			PBXPerProjectTemplateStateSaveDate = 312603498;
+			PBXWorkspaceStateSaveDate = 312603498;
 		};
 		perUserProjectItems = {
-			5F035130128730A9002B70C2 /* PBXTextBookmark */ = 5F035130128730A9002B70C2 /* PBXTextBookmark */;
 			5F327A370E9AB72900ADFF2E /* PBXBookmark */ = 5F327A370E9AB72900ADFF2E /* PBXBookmark */;
 			5F327A380E9AB72900ADFF2E /* PBXTextBookmark */ = 5F327A380E9AB72900ADFF2E /* PBXTextBookmark */;
 			5F327A3A0E9AB72900ADFF2E /* PBXTextBookmark */ = 5F327A3A0E9AB72900ADFF2E /* PBXTextBookmark */;
@@ -57,13 +56,14 @@
 			5F327A3D0E9AB72900ADFF2E /* PBXTextBookmark */ = 5F327A3D0E9AB72900ADFF2E /* PBXTextBookmark */;
 			5F327A3F0E9AB72900ADFF2E /* PBXTextBookmark */ = 5F327A3F0E9AB72900ADFF2E /* PBXTextBookmark */;
 			5F327A400E9AB72900ADFF2E /* PBXTextBookmark */ = 5F327A400E9AB72900ADFF2E /* PBXTextBookmark */;
+			5F4B879612A1FD89008D5BA3 /* PBXTextBookmark */ = 5F4B879612A1FD89008D5BA3 /* PBXTextBookmark */;
+			5F4B879712A1FD89008D5BA3 /* PBXTextBookmark */ = 5F4B879712A1FD89008D5BA3 /* PBXTextBookmark */;
 			5F4CC02A0EA2DE7B004772B7 /* PBXTextBookmark */ = 5F4CC02A0EA2DE7B004772B7 /* PBXTextBookmark */;
 			5F53B10C0EA78D3400627422 /* PBXTextBookmark */ = 5F53B10C0EA78D3400627422 /* PBXTextBookmark */;
 			5F6C21A01285EE190050318C /* PBXBookmark */ = 5F6C21A01285EE190050318C /* PBXBookmark */;
 			5F6C21A11285EE190050318C /* PBXBookmark */ = 5F6C21A11285EE190050318C /* PBXBookmark */;
 			5F6C21A21285EE190050318C /* PBXBookmark */ = 5F6C21A21285EE190050318C /* PBXBookmark */;
 			5F7742091286F68D0099C03B /* PlistBookmark */ = 5F7742091286F68D0099C03B /* PlistBookmark */;
-			5F77424B12870B4C0099C03B /* PBXTextBookmark */ = 5F77424B12870B4C0099C03B /* PBXTextBookmark */;
 			5F8B244C0E95474A00192AE5 /* PBXTextBookmark */ = 5F8B244C0E95474A00192AE5 /* PBXTextBookmark */;
 			5F8B244E0E95474A00192AE5 /* PBXTextBookmark */ = 5F8B244E0E95474A00192AE5 /* PBXTextBookmark */;
 			5F8B24500E95474A00192AE5 /* PBXTextBookmark */ = 5F8B24500E95474A00192AE5 /* PBXTextBookmark */;
@@ -91,16 +91,6 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 260}";
 		};
-	};
-	5F035130128730A9002B70C2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5F8B22080E95305800192AE5 /* AppController.m */;
-		name = "AppController.m: 135";
-		rLen = 4;
-		rLoc = 3460;
-		rType = 0;
-		vrLen = 615;
-		vrLoc = 3283;
 	};
 	5F327A370E9AB72900ADFF2E /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -176,6 +166,26 @@
 		vrLen = 1226;
 		vrLoc = 0;
 	};
+	5F4B879612A1FD89008D5BA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5F8B22080E95305800192AE5 /* AppController.m */;
+		name = "AppController.m: 83";
+		rLen = 1;
+		rLoc = 2045;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 6430;
+	};
+	5F4B879712A1FD89008D5BA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5F8B22080E95305800192AE5 /* AppController.m */;
+		name = "AppController.m: 83";
+		rLen = 1;
+		rLoc = 2045;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 6430;
+	};
 	5F4CC02A0EA2DE7B004772B7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5F8B21E60E95301E00192AE5 /* BBOSCDispatcher.m */;
@@ -218,16 +228,6 @@
 		name = "/Users/todd/Documents/haplome/haplome connect/Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	5F77424B12870B4C0099C03B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5F8B22080E95305800192AE5 /* AppController.m */;
-		name = "AppController.m: 68";
-		rLen = 71;
-		rLoc = 1537;
-		rType = 0;
-		vrLen = 617;
-		vrLoc = 3283;
 	};
 	5F8237710E965F820079E20B /* TCPServer.m */ = {
 		uiCtxt = {
@@ -417,9 +417,9 @@
 	};
 	5F8B22080E95305800192AE5 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1202, 4823}}";
-			sepNavSelRange = "{3460, 4}";
-			sepNavVisRange = "{3283, 615}";
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 4641}}";
+			sepNavSelRange = "{2045, 1}";
+			sepNavVisRange = "{6430, 991}";
 		};
 	};
 	5F8B22090E95305800192AE5 /* AppController.h */ = {
