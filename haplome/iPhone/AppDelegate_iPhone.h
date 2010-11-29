@@ -7,19 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BrowserViewController.h"
-#import "Picker.h"
-#import "TCPServer.h"
 @class MainViewController;
 @class Reachability;
-@interface AppDelegate_iPhone : NSObject <UIApplicationDelegate, UIActionSheetDelegate, BrowserViewControllerDelegate, TCPServerDelegate,NSStreamDelegate> {
+@interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	Picker*				_picker;
-	TCPServer*			_server;
-	NSInputStream*		_inStream;
-	NSOutputStream*		_outStream;
-	BOOL				_inReady;
-	BOOL				_outReady;
 	MainViewController *mainViewController;
 	Reachability* hostReach;
     Reachability* internetReach;

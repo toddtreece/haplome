@@ -1,7 +1,7 @@
 Thaplome
 v7
 r0
-t311456484.022414
+t312732861.289564
 cCheck dependencies
 cProcessInfoPlistFile /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist haplome-Info.plist
 cCompileXIB /Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib
@@ -29,17 +29,12 @@ cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal
 cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/TCPServer.o /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o /Users/todd/Documents/haplome/haplome/Picker.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o /Users/todd/Documents/haplome/haplome/Networking/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome normal i386
-cGenerateDSYMFile /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
-cTouch /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CCF6DC00000000000000110
-t1288662464
+c000000004CF3176C0000000000000110
+t1290999660
 s272
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h
@@ -138,55 +133,55 @@ t1289341427
 s81261
 
 N/Users/todd/Documents/haplome/haplome/MainView.h
-c000000004CD6BCA600000000000001F5
-t1289141414
+c000000004CF3B44B00000000000001F5
+t1291039819
 s501
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainView.m
-c000000004CD897B4000000000000149A
-t1289263028
+c000000004CF3B44B000000000000149A
+t1291039819
 s5274
 i"MainView.h"
 i"AppDelegate_iPad.h"
 i"AppDelegate_iPhone.h"
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.h
-c000000004CD6C02D00000000000001E0
-t1289142317
+c000000004CF3B44B00000000000001E0
+t1291039819
 s480
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.m
-c000000004CD897DE000000000000086E
-t1289263070
+c000000004CF3B44B000000000000086E
+t1291039819
 s2158
 i"MainViewController.h"
 i"MainView.h"
 
 N/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.h
-c000000004CD4605400000000000010FD
-t1288986708
+c000000004CF3B44B00000000000010FD
+t1291039819
 s4349
 i<UIKit/UIKit.h>
 i<Foundation/NSNetServices.h>
 
 N/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m
-c000000004CD588A6000000000000385D
-t1289062566
+c000000004CF3B44B000000000000385D
+t1291039819
 s14429
 i"BrowserViewController.h"
 
 N/Users/todd/Documents/haplome/haplome/Networking/Reachability.h
-c000000004C34EF790000000000000F1B
-t1278537593
+c000000004CF3B44B0000000000000F1B
+t1291039819
 s3867
 i<Foundation/Foundation.h>
 i<SystemConfiguration/SystemConfiguration.h>
 
 N/Users/todd/Documents/haplome/haplome/Networking/Reachability.m
-c000000004C34EF79000000000000239B
-t1278537593
+c000000004CF3B44B000000000000239B
+t1291039819
 s9115
 i<sys/socket.h>
 i<netinet/in.h>
@@ -198,14 +193,14 @@ i<CoreFoundation/CoreFoundation.h>
 i"Reachability.h"
 
 N/Users/todd/Documents/haplome/haplome/Networking/TCPServer.h
-c000000004CD48A690000000000000E4C
-t1288997481
+c000000004CF3B44B0000000000000E4C
+t1291039819
 s3660
 i<Foundation/Foundation.h>
 
 N/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m
-c000000004CD43DFB0000000000002490
-t1288977915
+c000000004CF3B44B0000000000002490
+t1291039819
 s9360
 i<sys/socket.h>
 i<netinet/in.h>
@@ -214,235 +209,235 @@ i<CFNetwork/CFSocketStream.h>
 i"TCPServer.h"
 
 N/Users/todd/Documents/haplome/haplome/Picker.h
-c000000004CD43E04000000000000015E
-t1288977924
+c000000004CF3B44B000000000000015E
+t1291039819
 s350
 i<UIKit/UIKit.h>
 i"BrowserViewController.h"
 
 N/Users/todd/Documents/haplome/haplome/Picker.m
-c000000004CD9CAF0000000000000119D
-t1289341680
+c000000004CF3B44B000000000000119D
+t1291039819
 s4509
 i"Picker.h"
 
 N/Users/todd/Documents/haplome/haplome/Settings.bundle
-c000000004CD8941A00000000000000AA
-t1289262106
+c000000004CF3B44B00000000000000AA
+t1291039819
 s170
 
 N/Users/todd/Documents/haplome/haplome/Shared/main.m
-c000000004CD6B82C0000000000000162
-t1289140268
+c000000004CF3B44B0000000000000162
+t1291039819
 s354
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/banner_320.png
-c000000004CD595E7000000000000637C
-t1289065959
+c000000004CF3B44B000000000000637C
+t1291039819
 s25468
 
 N/Users/todd/Documents/haplome/haplome/banner_640.png
-c000000004CD595BC00000000000106F8
-t1289065916
+c000000004CF3B44B00000000000106F8
+t1291039819
 s67320
 
 N/Users/todd/Documents/haplome/haplome/banner_768.png
-c000000004CD59C970000000000010E68
-t1289067671
+c000000004CF3B44B0000000000010E68
+t1291039819
 s69224
 
 N/Users/todd/Documents/haplome/haplome/bg.png
-c000000004CD43E04000000000000525E
-t1288977924
+c000000004CF3B44B000000000000525E
+t1291039819
 s21086
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
-t1289347245
+t1291039819
 s816
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM
-t1289347245
+t1291039819
 s102
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist
-t1289347244
+t1291039819
 s1052
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/MainWindow_iPad.nib
-t1289347244
+t1291039819
 s982
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/MainWindow_iPhone.nib
-t1289347244
+t1291039819
 s984
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/PkgInfo
-t1289347244
+t1291039819
 s8
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Settings.bundle
-t1289347244
+t1291039819
 s136
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/banner_320.png
-t1289347244
+t1291039819
 s25468
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/banner_640.png
-t1289347244
+t1291039819
 s67320
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/banner_768.png
-t1289347244
+t1291039819
 s69224
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/bg.png
-t1289347244
+t1291039819
 s21086
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/default_320.png
-t1289347244
+t1291039819
 s95388
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/default_640.png
-t1289347244
+t1291039819
 s262953
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/default_768.png
-t1289347244
+t1291039819
 s325281
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/footer_320.png
-t1289347244
+t1291039819
 s4614
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/footer_640.png
-t1289347244
+t1291039819
 s6664
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/footer_768.png
-t1289347244
+t1291039819
 s8503
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
-t1289347245
+t1291039819
 s108072
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/icon_114.png
-t1289347244
+t1291039819
 s7201
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/icon_512.png
-t1289347244
+t1291039819
 s41985
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/icon_57.png
-t1289347244
+t1291039819
 s4485
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/icon_72.png
-t1289347244
+t1291039819
 s4289
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/picker_320.png
-t1289347244
+t1291039819
 s31707
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/picker_768.png
-t1289347244
+t1291039819
 s81261
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o
-t1289347245
-s81704
+t2
+s0
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o
-t1289347245
-s82744
+t1291040061
+s62020
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o
-t1289347245
+t1291039819
 s79292
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o
-t1289347245
-s64692
+t2
+s0
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o
-t1289347245
+t1291040061
 s48956
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o
-t1289347245
-s48460
+t2
+s0
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o
-t1289347245
+t1291040061
 s23052
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/TCPServer.o
-t1289347245
+t1291039819
 s30236
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/haplome.LinkFileList
-c000000004CD9E0AB000000000000048D
-t1289347243
-s1165
+c000000004CF3B53C0000000000000385
+t1291040060
+s901
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o
-t1289347245
+t1291040060
 s6316
 
 N/Users/todd/Documents/haplome/haplome/default_320.png
-c000000004CD59275000000000001749C
-t1289065077
+c000000004CF3B44B000000000001749C
+t1291039819
 s95388
 
 N/Users/todd/Documents/haplome/haplome/default_640.png
-c000000004CD5925A0000000000040329
-t1289065050
+c000000004CF3B44B0000000000040329
+t1291039819
 s262953
 
 N/Users/todd/Documents/haplome/haplome/default_768.png
-c000000004CD59160000000000004F6A1
-t1289064800
+c000000004CF3B44B000000000004F6A1
+t1291039819
 s325281
 
 N/Users/todd/Documents/haplome/haplome/footer_320.png
-c000000004CD9C6370000000000001206
-t1289340471
+c000000004CF3B44B0000000000001206
+t1291039819
 s4614
 
 N/Users/todd/Documents/haplome/haplome/footer_640.png
-c000000004CD9C5A40000000000001A08
-t1289340324
+c000000004CF3B44B0000000000001A08
+t1291039819
 s6664
 
 N/Users/todd/Documents/haplome/haplome/footer_768.png
-c000000004CD9C70F0000000000002137
-t1289340687
+c000000004CF3B44B0000000000002137
+t1291039819
 s8503
 
 N/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch
-c000000004CD059EB00000000000000B7
-t1288722923
+c000000004CF3B44B00000000000000B7
+t1291039819
 s183
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h
-c000000004CD9D3D10000000000000445
-t1289343953
-s1093
+c000000004CF3B5580000000000000386
+t1291040088
+s902
 i<UIKit/UIKit.h>
 i"BrowserViewController.h"
 i"Picker.h"
 i"TCPServer.h"
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m
-c000000004CD9D4E700000000000022B5
-t1289344231
+c000000004CF3B44B00000000000022B5
+t1291039819
 s8885
 i"AppDelegate_iPad.h"
 i"Reachability.h"
@@ -450,70 +445,66 @@ i"MainViewController.h"
 i"Picker.h"
 
 N/Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib
-c000000004CD059EB00000000000036DB
-t1288722923
+c000000004CF3B44B00000000000036DB
+t1291039819
 s14043
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.h
-c000000004CD9D3D10000000000000449
-t1289343953
-s1097
+c000000004CF3B2920000000000000317
+t1291039378
+s791
 i<UIKit/UIKit.h>
-i"BrowserViewController.h"
-i"Picker.h"
-i"TCPServer.h"
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m
-c000000004CD9D4E700000000000025E0
-t1289344231
-s9696
+c000000004CF3B11D000000000000108E
+t1291039005
+s4238
 i"AppDelegate_iPhone.h"
 i"Reachability.h"
 i"MainViewController.h"
-i"Picker.h"
 
 N/Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib
-c000000004CD059EB000000000000390A
-t1288722923
+c000000004CF3B44B000000000000390A
+t1291039819
 s14602
 
 N/Users/todd/Documents/haplome/haplome/icon_114.png
-c000000004CD56E2C0000000000001C21
-t1289055788
+c000000004CF3B44B0000000000001C21
+t1291039819
 s7201
 
 N/Users/todd/Documents/haplome/haplome/icon_512.png
-c000000004CD5B67D000000000000A401
-t1289074301
+c000000004CF3B44B000000000000A401
+t1291039819
 s41985
 
 N/Users/todd/Documents/haplome/haplome/icon_57.png
-c000000004CD56E540000000000001185
-t1289055828
+c000000004CF3B44B0000000000001185
+t1291039819
 s4485
 
 N/Users/todd/Documents/haplome/haplome/icon_72.png
-c000000004CD56E7B00000000000010C1
-t1289055867
+c000000004CF3B44B00000000000010C1
+t1291039819
 s4289
 
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch
-t1289347245
+t1291040060
 s15453392
 
 Nhaplome-Info.plist
-c000000004CD68CA70000000000000621
-t1289129127
+c000000004CF3B44B0000000000000621
+t1291039819
 s1569
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311456484#311456484#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies312732860#312732860#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.308870
-e311040045.471933
-r1
+s312732860.958854
+e312732861.071166
+r0
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o
 x/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m
@@ -521,11 +512,44 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m311040045#311040045#0(0"0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8604758944#1932"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o0#
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:10:34: error: BrowserViewController.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,
+o                 from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:
+o/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,
+o                 from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:
+o/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'
+o/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:12:22: error: TCPServer.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'TCPServerDelegate'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:18: error: expected specifier-qualifier-list before 'TCPServer'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad dealloc]':
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: '_server' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: (Each undeclared identifier is reported only once
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: for each function it appears in.)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad setup]':
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:117: error: '_server' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:130: error: 'TCPServer' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad presentPicker:]':
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:151: error: 'TCPServer' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: At top level:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:206: error: expected ')' before 'BrowserViewController'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad(NSStreamDelegate) stream:handleEvent:]':
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:233: error: '_server' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: At top level:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:313: error: expected ')' before 'TCPServer'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:319: error: expected ')' before 'TCPServer'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad(TCPServerDelegate) didAcceptConnectionForServer:inputStream:outputStream:]':
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:321: error: '_server' undeclared (first use in this function)
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#312732861#0(3706"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:10:34: error: BrowserViewController.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,                 from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,                 from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:12:22: error: TCPServer.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:9:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'TCPServerDelegate'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:18: error: expected specifier-qualifier-list before 'TCPServer'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad dealloc]':/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: '_server' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: (Each undeclared identifier is reported only once/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:109: error: for each function it appears in.)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad setup]':/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:117: error: '_server' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:130: error: 'TCPServer' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad presentPicker:]':/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:151: error: 'TCPServer' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: At top level:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:206: error: expected ')' before 'BrowserViewController'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad(NSStreamDelegate) stream:handleEvent:]':/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:233: error: '_server' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: At top level:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:313: error: expected ')' before 'TCPServer'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:319: error: expected ')' before 'TCPServer'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad(TCPServerDelegate) didAcceptConnectionForServer:inputStream:outputStream:]':/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m:321: error: '_server' undeclared (first use in this function)19(4@50"BrowserViewController.h: No such file or directory312732860#87#127#2(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(13@115"BrowserViewController.h: No such file or directory in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#10#0#10#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#10#0#10#0#28"*: No such file or directory0(4@50"BrowserViewController.h: No such file or directory312732860#389#111#3(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@100"BrowserViewController.h: No such file or directory in /Users/todd/Documents/haplome/haplome/Picker.h312732860#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#28"*: No such file or directory0(4@64"Expected specifier-qualifier-list before 'BrowserViewController'312732860#675#122#3(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@114"Expected specifier-qualifier-list before 'BrowserViewController' in /Users/todd/Documents/haplome/haplome/Picker.h312732860#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#19"expected * before *0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732860#797#127#3(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@118"Cannot find protocol declaration for 'BrowserViewControllerDelegate' in /Users/todd/Documents/haplome/haplome/Picker.h312732860#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(4@38"TCPServer.h: No such file or directory312732860#1011#115#2(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(13@103"TCPServer.h: No such file or directory in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#12#0#12#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#12#0#12#0#28"*: No such file or directory0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732860#1213#142#2(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(13@133"Cannot find protocol declaration for 'BrowserViewControllerDelegate' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(4@56"Cannot find protocol declaration for 'TCPServerDelegate'312732860#1355#130#2(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(13@121"Cannot find protocol declaration for 'TCPServerDelegate' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(4@52"Expected specifier-qualifier-list before 'TCPServer'312732860#1485#126#2(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#9#0#9#0#0"0(13@117"Expected specifier-qualifier-list before 'TCPServer' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732860#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#18#0#18#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#18#0#18#0#19"expected * before *0(4@49"'_server' undeclared (first use in this function)312732861#1717#124#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#109#0#109#0#43"'*' undeclared (first use in this function)0(4@49"'_server' undeclared (first use in this function)312732861#2177#124#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#117#0#117#0#43"'*' undeclared (first use in this function)0(4@51"'TCPServer' undeclared (first use in this function)312732861#2301#126#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#130#0#130#0#43"'*' undeclared (first use in this function)0(4@51"'TCPServer' undeclared (first use in this function)312732861#2540#126#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#151#0#151#0#43"'*' undeclared (first use in this function)0(23@13"At top level:312732861#2666#77#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#0#0#0#0#0"0(4@43"Expected ')' before 'BrowserViewController'312732861#2743#118#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#206#0#206#0#19"expected * before *0(4@49"'_server' undeclared (first use in this function)312732861#2997#124#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#233#0#233#0#43"'*' undeclared (first use in this function)0(23@13"At top level:312732861#3121#77#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#0#0#0#0#0"0(4@31"Expected ')' before 'TCPServer'312732861#3198#106#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#313#0#313#0#19"expected * before *0(4@31"Expected ')' before 'TCPServer'312732861#3304#106#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#319#0#319#0#19"expected * before *0(4@49"'_server' undeclared (first use in this function)312732861#3582#124#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312732619#321#0#321#0#43"'*' undeclared (first use in this function)0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8603616512#1932"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o1#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.237904
-e311040045.426068
+s312732860.899732
+e312732861.031529
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o
@@ -534,7 +558,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m311040045#311040045#0(0"0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8612537600#1938"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone activateView:withCol:]':
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: 'AppDelegate_iPhone' may not respond to '-send:'
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: (Messages without a matching method signature
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: will be assumed to return 'id' and accept
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: '...' as arguments.)
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone deactivateView:withCol:]':
+o/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:128: warning: 'AppDelegate_iPhone' may not respond to '-send:'
+lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312732860#312732861#0(861"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone activateView:withCol:]':/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: 'AppDelegate_iPhone' may not respond to '-send:'/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:121: warning: '...' as arguments.)/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone deactivateView:withCol:]':/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:128: warning: 'AppDelegate_iPhone' may not respond to '-send:'3(22@48"'AppDelegate_iPhone' may not respond to '-send:'312732860#126#129#0(6@65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312731805#121#0#121#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312732860#255#126#0(6@65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312731805#121#0#121#0#0"0(22@48"'AppDelegate_iPhone' may not respond to '-send:'312732860#732#129#0(6@65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312731805#128#0#128#0#26"'*' may not respond to '*'0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8601227648#1938"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s311040045.579756
@@ -550,9 +581,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m311040045#311040045#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8613497344#1948"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.426171
-e311040045.579595
-r1
+s312732861.031727
+e312732861.107823
+r0
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o
 x/Users/todd/Documents/haplome/haplome/MainView.m
@@ -560,11 +591,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m311040045#311040045#0(0"0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8603120256#1911"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o0#
+oIn file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:10:34: error: BrowserViewController.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,
+o                 from /Users/todd/Documents/haplome/haplome/MainView.m:10:
+o/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,
+o                 from /Users/todd/Documents/haplome/haplome/MainView.m:10:
+o/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'
+o/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+oIn file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:12:22: error: TCPServer.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'TCPServerDelegate'
+o/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:18: error: expected specifier-qualifier-list before 'TCPServer'
+lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m312732861#312732861#0(1551"In file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:10:34: error: BrowserViewController.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,                 from /Users/todd/Documents/haplome/haplome/MainView.m:10:/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:11,                 from /Users/todd/Documents/haplome/haplome/MainView.m:10:/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'In file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:12:22: error: TCPServer.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/MainView.m:10:/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:15: error: cannot find protocol declaration for 'TCPServerDelegate'/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h:18: error: expected specifier-qualifier-list before 'TCPServer'8(4@50"BrowserViewController.h: No such file or directory312732861#75#127#2(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(13@115"BrowserViewController.h: No such file or directory in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#10#0#10#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#10#0#10#0#28"*: No such file or directory0(4@50"BrowserViewController.h: No such file or directory312732861#365#111#3(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@100"BrowserViewController.h: No such file or directory in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#28"*: No such file or directory0(4@64"Expected specifier-qualifier-list before 'BrowserViewController'312732861#639#122#3(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@114"Expected specifier-qualifier-list before 'BrowserViewController' in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#19"expected * before *0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732861#761#127#3(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(7@83"In file included from /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#11#0#11#0#0"0(13@118"Cannot find protocol declaration for 'BrowserViewControllerDelegate' in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(4@38"TCPServer.h: No such file or directory312732861#963#115#2(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(13@103"TCPServer.h: No such file or directory in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#12#0#12#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#12#0#12#0#28"*: No such file or directory0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732861#1153#142#2(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(13@133"Cannot find protocol declaration for 'BrowserViewControllerDelegate' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(4@56"Cannot find protocol declaration for 'TCPServerDelegate'312732861#1295#130#2(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(13@121"Cannot find protocol declaration for 'TCPServerDelegate' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#15#0#15#0#0"0(4@52"Expected specifier-qualifier-list before 'TCPServer'312732861#1425#126#2(7@70"In file included from /Users/todd/Documents/haplome/haplome/MainView.m312732861#18446744073709551615#0#0(6@48"/Users/todd/Documents/haplome/haplome/MainView.m312732619#10#0#10#0#0"0(13@117"Expected specifier-qualifier-list before 'TCPServer' in /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732861#18446744073709551615#0#0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#18#0#18#0#0"0(6@61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h312732619#18#0#18#0#19"expected * before *0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m5561775585521070080#1911"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o1#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.472032
-e311040045.580838
+s312732861.071257
+e312732861.174924
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o
@@ -573,12 +619,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m311040045#311040045#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8602320672#1931"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o0#
+lSLF07#2@66"Compile /Users/todd/Documents/haplome/haplome/MainViewController.m312732861#312732861#0(0"0(0#0#58"/Users/todd/Documents/haplome/haplome/MainViewController.m8600529248#1931"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o /Users/todd/Documents/haplome/haplome/Picker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.703513
-e311040045.803385
-r1
+s312732861.107912
+e312732861.173434
+r0
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o
 x/Users/todd/Documents/haplome/haplome/Picker.m
@@ -586,11 +632,40 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m311040045#311040045#0(0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8616050112#1907"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o0#
+oIn file included from /Users/todd/Documents/haplome/haplome/Picker.m:53:
+o/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directory
+oIn file included from /Users/todd/Documents/haplome/haplome/Picker.m:53:
+o/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'
+o/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+o/Users/todd/Documents/haplome/haplome/Picker.m:58: error: expected specifier-qualifier-list before 'BrowserViewController'
+o/Users/todd/Documents/haplome/haplome/Picker.m:64: error: no declaration of property 'bvc' found in the interface
+o/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker initWithFrame:type:]':
+o/Users/todd/Documents/haplome/haplome/Picker.m:69: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m:69: error: 'BrowserViewController' undeclared (first use in this function)
+o/Users/todd/Documents/haplome/haplome/Picker.m:69: error: (Each undeclared identifier is reported only once
+o/Users/todd/Documents/haplome/haplome/Picker.m:69: error: for each function it appears in.)
+o/Users/todd/Documents/haplome/haplome/Picker.m:70: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m:79: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m:84: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m:87: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker dealloc]':
+o/Users/todd/Documents/haplome/haplome/Picker.m:101: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m: At top level:
+o/Users/todd/Documents/haplome/haplome/Picker.m:108: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+o/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker delegate]':
+o/Users/todd/Documents/haplome/haplome/Picker.m:109: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m:110: warning: control reaches end of non-void function
+o/Users/todd/Documents/haplome/haplome/Picker.m: At top level:
+o/Users/todd/Documents/haplome/haplome/Picker.m:113: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'
+o/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker setDelegate:]':
+o/Users/todd/Documents/haplome/haplome/Picker.m:114: error: request for member 'bvc' in something not a structure or union
+o/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker setHaplomeName:]':
+o/Users/todd/Documents/haplome/haplome/Picker.m:123: error: request for member 'bvc' in something not a structure or union
+lSLF07#2@54"Compile /Users/todd/Documents/haplome/haplome/Picker.m312732861#312732861#0(3071"In file included from /Users/todd/Documents/haplome/haplome/Picker.m:53:/Users/todd/Documents/haplome/haplome/Picker.h:3:34: error: BrowserViewController.h: No such file or directoryIn file included from /Users/todd/Documents/haplome/haplome/Picker.m:53:/Users/todd/Documents/haplome/haplome/Picker.h:9: error: expected specifier-qualifier-list before 'BrowserViewController'/Users/todd/Documents/haplome/haplome/Picker.h:12: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'/Users/todd/Documents/haplome/haplome/Picker.m:58: error: expected specifier-qualifier-list before 'BrowserViewController'/Users/todd/Documents/haplome/haplome/Picker.m:64: error: no declaration of property 'bvc' found in the interface/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker initWithFrame:type:]':/Users/todd/Documents/haplome/haplome/Picker.m:69: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m:69: error: 'BrowserViewController' undeclared (first use in this function)/Users/todd/Documents/haplome/haplome/Picker.m:69: error: (Each undeclared identifier is reported only once/Users/todd/Documents/haplome/haplome/Picker.m:69: error: for each function it appears in.)/Users/todd/Documents/haplome/haplome/Picker.m:70: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m:79: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m:84: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m:87: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker dealloc]':/Users/todd/Documents/haplome/haplome/Picker.m:101: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m: At top level:/Users/todd/Documents/haplome/haplome/Picker.m:108: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker delegate]':/Users/todd/Documents/haplome/haplome/Picker.m:109: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m:110: warning: control reaches end of non-void function/Users/todd/Documents/haplome/haplome/Picker.m: At top level:/Users/todd/Documents/haplome/haplome/Picker.m:113: error: cannot find protocol declaration for 'BrowserViewControllerDelegate'/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker setDelegate:]':/Users/todd/Documents/haplome/haplome/Picker.m:114: error: request for member 'bvc' in something not a structure or union/Users/todd/Documents/haplome/haplome/Picker.m: In function '-[Picker setHaplomeName:]':/Users/todd/Documents/haplome/haplome/Picker.m:123: error: request for member 'bvc' in something not a structure or union20(4@50"BrowserViewController.h: No such file or directory312732861#73#111#2(7@68"In file included from /Users/todd/Documents/haplome/haplome/Picker.m312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#53#0#53#0#0"0(13@100"BrowserViewController.h: No such file or directory in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#3#0#3#0#28"*: No such file or directory0(4@64"Expected specifier-qualifier-list before 'BrowserViewController'312732861#257#122#2(7@68"In file included from /Users/todd/Documents/haplome/haplome/Picker.m312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#53#0#53#0#0"0(13@114"Expected specifier-qualifier-list before 'BrowserViewController' in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#9#0#9#0#19"expected * before *0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732861#379#127#2(7@68"In file included from /Users/todd/Documents/haplome/haplome/Picker.m312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#53#0#53#0#0"0(13@118"Cannot find protocol declaration for 'BrowserViewControllerDelegate' in /Users/todd/Documents/haplome/haplome/Picker.h312732861#18446744073709551615#0#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(6@46"/Users/todd/Documents/haplome/haplome/Picker.h312732619#12#0#12#0#0"0(4@64"Expected specifier-qualifier-list before 'BrowserViewController'312732861#506#123#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#58#0#58#0#19"expected * before *0(4@55"No declaration of property 'bvc' found in the interface312732861#629#114#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#64#0#64#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#836#121#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#69#0#69#0#0"0(4@63"'BrowserViewController' undeclared (first use in this function)312732861#957#122#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#69#0#69#0#43"'*' undeclared (first use in this function)0(4@62"Request for member 'bvc' in something not a structure or union312732861#1279#121#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#70#0#70#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#1400#121#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#79#0#79#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#1521#121#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#84#0#84#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#1642#121#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#87#0#87#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#1844#122#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#101#0#101#0#0"0(23@13"At top level:312732861#1966#62#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#0#0#0#0#0"0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732861#2028#128#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#108#0#108#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#2238#122#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#109#0#109#0#0"0(22@40"Control reaches end of non-void function312732861#2360#102#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#110#0#110#0#40"control reaches end of non-void function0(23@13"At top level:312732861#2462#62#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#0#0#0#0#0"0(4@68"Cannot find protocol declaration for 'BrowserViewControllerDelegate'312732861#2524#128#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#113#0#113#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#2738#122#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#114#0#114#0#0"0(4@62"Request for member 'bvc' in something not a structure or union312732861#2949#122#0(6@46"/Users/todd/Documents/haplome/haplome/Picker.m312732619#123#0#123#0#0"0(0#0#46"/Users/todd/Documents/haplome/haplome/Picker.m8600122848#1907"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Picker.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o1#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o /Users/todd/Documents/haplome/haplome/Networking/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.748672
-e311040045.855015
+s312732861.173517
+e312732861.289304
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o
@@ -599,7 +674,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/todd/Documents/haplome/haplome/Networking/Reachability.m311040045#311040045#0(0"0(0#0#63"/Users/todd/Documents/haplome/haplome/Networking/Reachability.m8610592864#1930"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/Reachability.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o0#
+lSLF07#2@71"Compile /Users/todd/Documents/haplome/haplome/Networking/Reachability.m312732861#312732861#0(0"0(0#0#63"/Users/todd/Documents/haplome/haplome/Networking/Reachability.m8604453984#1930"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/Reachability.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/TCPServer.o /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s311040045.580914
@@ -620,8 +695,8 @@ o/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...
 lSLF07#2@68"Compile /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m311040045#311040045#0(580"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m: In function '-[TCPServer netService:didNotPublish:]':/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: 'NSObject' may not respond to '-netServiceDidPublish:'/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: (Messages without a matching method signature/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: will be assumed to return 'id' and accept/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m:211: warning: '...' as arguments.)2(22@54"'NSObject' may not respond to '-netServiceDidPublish:'311040045#116#130#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311040045#246#121#0(6@60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m310670715#211#0#211#0#0"0(0#0#60"/Users/todd/Documents/haplome/haplome/Networking/TCPServer.m8612452576#1924"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/TCPServer.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/TCPServer.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o /Users/todd/Documents/haplome/haplome/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040045.236781
-e311040045.308659
+s312732860.898740
+e312732860.958742
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o
@@ -630,7 +705,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m311040045#311040045#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8604488416#1910"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o0#
+lSLF07#2@59"Compile /Users/todd/Documents/haplome/haplome/Shared/main.m312732860#312732860#0(0"0(0#0#51"/Users/todd/Documents/haplome/haplome/Shared/main.m8602188480#1910"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Shared/main.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/todd/Documents/haplome/haplome/iPad/MainWindow_iPad.xib
 s311040044.026073
@@ -830,8 +905,8 @@ xhaplome-Info.plist
 lSLF07#2@26"Process haplome-Info.plist311040044#311040044#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome-Info.plist30962724186357872#476"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility haplome-Info.plist -genpkginfo /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist0#
 
 CProcessPCH /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch haplome_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s311040044.554213
-e311040045.236671
+s312732860.235478
+e312732860.898628
 r1
 xProcessPCH
 x/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch
@@ -840,7 +915,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile haplome_Prefix.pch311040044#311040045#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8604901312#1796"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch0#
+lSLF07#2@29"Precompile haplome_Prefix.pch312732860#312732860#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8237188607692991488#1796"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch0#
 
 CTouch /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
 s311040045.948415
