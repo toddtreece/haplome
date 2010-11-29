@@ -118,14 +118,14 @@
 {
 	NSUInteger tagValue;
 	tagValue = x * 10 + y +1;
-	[self send:tagValue | 0x80];
+	//[self send:tagValue | 0x80];
 }
 
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
 {
 	NSUInteger tagValue;
 	tagValue = x * 10 + y +1;
-	[self send:tagValue & 0x7f];
+	//[self send:tagValue & 0x7f];
 }
 
 

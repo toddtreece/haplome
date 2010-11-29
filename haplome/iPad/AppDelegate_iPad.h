@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BrowserViewController.h"
-#import "Picker.h"
-#import "TCPServer.h"
 @class MainViewController;
 @class Reachability;
-@interface AppDelegate_iPad : NSObject <UIApplicationDelegate, UIActionSheetDelegate,NSStreamDelegate> {
+@interface AppDelegate_iPad : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	MainViewController *mainViewController;
 	Reachability* hostReach;
