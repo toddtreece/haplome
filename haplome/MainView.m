@@ -44,7 +44,6 @@
     return self;
 }
 
-
 - (void)drawRect:(CGRect)rect {
 	ctx = UIGraphicsGetCurrentContext();
 	if(setup == FALSE) {

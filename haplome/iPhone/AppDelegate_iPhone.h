@@ -29,11 +29,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VVOSC/VVOSC.h>
 @class MainViewController;
 @class Reachability;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	NSString *oscPrefix;
 	MainViewController *mainViewController;
+	OSCManager *manager;
+	OSCOutPort *outPort;
 	Reachability* hostReach;
     Reachability* internetReach;
     Reachability* wifiReach;
@@ -41,6 +45,10 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
+@property (nonatomic, retain) OSCManager *manager;
+@property (nonatomic, retain) NSString *oscPrefix;
+@property (nonatomic, retain) OSCOutPort *outPort;
+- (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) updateInterfaceWithReachability: (Reachability*) curReach;

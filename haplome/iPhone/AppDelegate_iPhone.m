@@ -35,7 +35,9 @@
 
 
 @implementation AppDelegate_iPhone
-
+@synthesize oscPrefix;
+@synthesize outPort;
+@synthesize manager;
 @synthesize window;
 @synthesize mainViewController;
 
@@ -45,16 +47,47 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+    oscPrefix = @"/osc";
 	[UIApplication sharedApplication].idleTimerDisabled = YES;
 	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+	mainViewController = [MainViewController alloc];
+	[window addSubview:mainViewController.view];
+	[self.window makeKeyAndVisible];
+	manager = [[OSCManager alloc] init];
+	[manager setDelegate:self];
+	[manager createNewInputForPort:1234];
+	outPort = [manager createNewOutputToAddress:@"10.0.100.5" atPort:8000];
 	wifiReach = [[Reachability reachabilityForLocalWiFi] retain];
 	[wifiReach startNotifier];
 	[self updateInterfaceWithReachability: wifiReach];
-    [self.window makeKeyAndVisible];
-	mainViewController = [MainViewController alloc];
-	[window addSubview:mainViewController.view];
     return YES;
+}
+
+- (void) receivedOSCMessage:(OSCMessage *)m     {
+	//NSLog(@"%s ... %@",__func__,m);
+	NSString *addy = [m address];
+	if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led"]]]) {
+		[self receivedLed:m];
+	}
+}
+
+- (void) receivedLed:(OSCMessage *)message {
+	int colVal = [[[message valueArray] objectAtIndex:0] intValue];
+	int rowVal = [[[message valueArray] objectAtIndex:1] intValue];
+	int command = [[[message valueArray] objectAtIndex:2] intValue];
+	if(command == 1) {
+		if(colVal <= 7 && rowVal <=7){
+			[mainViewController lightOn:rowVal withCol:colVal];
+			[window setNeedsDisplay];
+		}
+	}
+	
+	if(command == 0) {
+		if(colVal <= 7 && rowVal <=7){
+			[mainViewController lightOff:rowVal withCol:colVal];
+		}
+		
+	}
 }
 
 - (void) updateInterfaceWithReachability: (Reachability*) curReach {
@@ -118,6 +151,25 @@
      */
 }
 
+- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y
+{
+	OSCMessage *newMsg = [OSCMessage createWithAddress:@"/osc/press"];
+	[newMsg addInt:y];
+	[newMsg addInt:x];
+	[newMsg addInt:1];
+	[outPort sendThisMessage:newMsg];
+	//[mainViewController lightOn:x withCol:y];
+}
+
+- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
+{
+	OSCMessage *newMsg = [OSCMessage createWithAddress:@"/osc/press"];
+	[newMsg addInt:y];
+	[newMsg addInt:x];
+	[newMsg addInt:0];
+	[outPort sendThisMessage:newMsg];
+	//[mainViewController lightOff:x withCol:y];
+}
 
 #pragma mark -
 #pragma mark Memory management
@@ -128,29 +180,13 @@
      */
 }
 
-
 - (void)dealloc {
-
+	[outPort release];
+	[mainViewController release];
+	[oscPrefix release];
     [window release];
     [super dealloc];
 }
-
-
-- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y
-{
-	NSUInteger tagValue;
-	tagValue = x * 10 + y +1;
-	//[self send:tagValue | 0x80];
-}
-
-- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
-{
-	NSUInteger tagValue;
-	tagValue = x * 10 + y +1;
-	//[self send:tagValue & 0x7f];
-}
-
-
 
 @end
 
