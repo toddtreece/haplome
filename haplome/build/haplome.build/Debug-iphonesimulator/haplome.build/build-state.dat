@@ -1,7 +1,7 @@
 Thaplome
 v7
 r0
-t312741665.479234
+t312782522.882703
 cCheck dependencies
 cProcessInfoPlistFile /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist haplome-Info.plist
 cCompileXIB /Users/todd/Documents/haplome/haplome/iPhone/MainWindow_iPhone.xib
@@ -140,29 +140,29 @@ t1289341427
 s81261
 
 N/Users/todd/Documents/haplome/haplome/MainView.h
-c000000004CF3BDA700000000000006E8
-t1291042215
+c000000004CF42EEE00000000000006E8
+t1291071214
 s1768
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainView.m
-c000000004CF3BDA7000000000000198D
-t1291042215
-s6541
+c000000004CF42EEE000000000000198C
+t1291071214
+s6540
 i"MainView.h"
 i"AppDelegate_iPad.h"
 i"AppDelegate_iPhone.h"
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.h
-c000000004CF3BDA700000000000006D3
-t1291042215
+c000000004CF42EEE00000000000006D3
+t1291071214
 s1747
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/MainViewController.m
-c000000004CF3BDA70000000000000D61
-t1291042215
-s3425
+c000000004CF42EEE0000000000000DEB
+t1291071214
+s3563
 i"MainViewController.h"
 i"MainView.h"
 
@@ -260,11 +260,11 @@ t1291039819
 s21086
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
-t1291048865
+t1291089722
 s816
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM
-t1291048865
+t1291089722
 s102
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist
@@ -272,11 +272,11 @@ t1291048863
 s1052
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/MainWindow_iPad.nib
-t1291048864
+t1291071214
 s982
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/MainWindow_iPhone.nib
-t1291048864
+t1291071214
 s984
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/PkgInfo
@@ -328,8 +328,8 @@ t1291045124
 s8503
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
-t1291048865
-s237496
+t1291089722
+s242612
 
 N/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/icon_114.png
 t1291045124
@@ -356,23 +356,23 @@ t1291045124
 s81261
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o
-t1291048864
+t1291089722
 s61424
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o
-t1291048864
-s65528
+t1291089722
+s73080
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o
 t1291039819
 s79292
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o
-t1291048865
-s64984
+t1291089722
+s65788
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o
-t1291048865
+t1291071214
 s49540
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Picker.o
@@ -380,7 +380,7 @@ t2
 s0
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/Reachability.o
-t1291048865
+t1291071214
 s23796
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/TCPServer.o
@@ -388,12 +388,12 @@ t1291039819
 s30236
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/haplome.LinkFileList
-c000000004CF3C904000000000000030A
-t1291045124
+c000000004CF42EEE000000000000030A
+t1291071214
 s778
 
 N/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/main.o
-t1291048864
+t1291071214
 s6648
 
 N/Users/todd/Documents/haplome/haplome/default_320.png
@@ -434,14 +434,14 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.h
-c000000004CF3BDA70000000000000806
-t1291042215
+c000000004CF42EEF0000000000000806
+t1291071215
 s2054
 i<UIKit/UIKit.h>
 
 N/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m
-c000000004CF3BDA70000000000001259
-t1291042215
+c000000004CF42EEF0000000000001259
+t1291071215
 s4697
 i"AppDelegate_iPad.h"
 i"Reachability.h"
@@ -453,16 +453,16 @@ t1291039819
 s14043
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.h
-c000000004CF3D71C000000000000086B
-t1291048732
-s2155
+c000000004CF42EEF0000000000000929
+t1291071215
+s2345
 i<UIKit/UIKit.h>
 i<VVOSC/VVOSC.h>
 
 N/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m
-c000000004CF3D3440000000000001605
-t1291047748
-s5637
+c000000004CF42EEF0000000000001AC1
+t1291071215
+s6849
 i"AppDelegate_iPhone.h"
 i"Reachability.h"
 i"MainViewController.h"
@@ -493,8 +493,8 @@ t1291039819
 s4289
 
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury
-c000000004CF3D79E0000000000000110
-t1291048862
+c000000004CF477390000000000000110
+t1291089721
 s272
 
 N/var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h
@@ -4955,11 +4955,11 @@ s1569
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312741661#312741663#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies312782492#312782522#0(0"0(0#1#0"8616113760#0"0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s312741664.833900
-e312741664.961710
+s312782522.081895
+e312782522.395720
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o
@@ -4970,11 +4970,11 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
 o<command-line>: warning: this is the location of the previous definition
-lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312741664#312741664#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8614862880#2056"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o0#
+lSLF07#2@69"Compile /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m312782522#312782522#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#61"/Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m8607363968#2056"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPad/AppDelegate_iPad.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPad.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s312741664.743313
-e312741664.971065
+s312782522.076455
+e312782522.398491
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o
@@ -4985,7 +4985,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
 o<command-line>: warning: this is the location of the previous definition
-lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312741664#312741664#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8614860768#2062"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+lSLF07#2@73"Compile /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m312782522#312782522#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#65"/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m8601732704#2062"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/AppDelegate_iPhone.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s311040045.579756
@@ -5001,8 +5001,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m311040045#311040045#0(0"0(0#0#72"/Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m8613497344#1948"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/Networking/BrowserViewController.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/BrowserViewController.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o /Users/todd/Documents/haplome/haplome/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s312741664.961806
-e312741665.269773
+s312782522.395847
+e312782522.513737
 r1
 xCompileC
 xbuild/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o
@@ -5013,7 +5013,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
 o<command-line>: warning: this is the location of the previous definition
-lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m312741664#312741665#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8614574752#2035"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o0#
+lSLF07#2@56"Compile /Users/todd/Documents/haplome/haplome/MainView.m312782522#312782522#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#48"/Users/todd/Documents/haplome/haplome/MainView.m8604947296#2035"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -include /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-czhuowaovwakrxfuzoktzsoualou/haplome_Prefix.pch -c /Users/todd/Documents/haplome/haplome/MainView.m -o /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainView.o0#
 
 CCompileC build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/MainViewController.o /Users/todd/Documents/haplome/haplome/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s312741664.971166
@@ -5290,23 +5290,23 @@ x../../Archive/Graphics/haplome/picker_768.png
 lSLF07#2@50"Copy ../../Archive/Graphics/haplome/picker_768.png312737924#312737924#0(0"0(0#0#83"/Users/todd/Documents/haplome/haplome/../../Archive/Graphics/haplome/picker_768.png8598679456#500"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/todd/Documents/haplome/haplome/../../Archive/Graphics/haplome/picker_768.png /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app0#
 
 CGenerateDSYMFile /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
-s312741665.433602
-e312741665.476320
+s312782522.833173
+e312782522.879986
 r1
 xGenerateDSYMFile
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/haplome.app.dSYM build/Debug-iphonesimulator/haplome.app/haplome312741665#312741665#0(0"0(0#0#85"/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome8595714720#380"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome -o /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/haplome.app.dSYM build/Debug-iphonesimulator/haplome.app/haplome312782522#312782522#0(0"0(0#0#85"/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome8605563840#380"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome -o /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app.dSYM0#
 
 CLd /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome normal i386
-s312741665.372317
-e312741665.433326
+s312782522.513830
+e312782522.833055
 r1
 xLd
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome
 xnormal
 xi386
-lSLF07#2@90"Link /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome312741665#312741665#0(0"0(0#0#0"8600565856#1034"    cd /Users/todd/Documents/haplome/haplome    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -L/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/haplome.LinkFileList -mmacosx-version-min=10.5 -ObjC -lVVOSC -lVVBasics -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome0#
+lSLF07#2@90"Link /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome312782522#312782522#0(0"0(0#0#0"8604701568#1034"    cd /Users/todd/Documents/haplome/haplome    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iphonesimulator-iPhoneSimulator4.2-ghakpwrnrlmjsebwpankwllflury -L/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -filelist /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/Objects-normal/i386/haplome.LinkFileList -mmacosx-version-min=10.5 -ObjC -lVVOSC -lVVBasics -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/haplome0#
 
 CProcessInfoPlistFile /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app/Info.plist haplome-Info.plist
 s312741663.643867
@@ -5346,10 +5346,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile haplome_Prefix.pch312737924#312737925#0(0"0(0#0#56"/Users/todd/Documents/haplome/haplome/haplome_Prefix.pch8609423616#1796"    cd /Users/todd/Documents/haplome/haplome    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-generated-files.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-own-target-headers.hmap -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-all-target-headers.hmap -iquote /Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/haplome-project-headers.hmap -F/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator -I/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/include -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources/i386 -I/Users/todd/Documents/haplome/haplome/build/haplome.build/Debug-iphonesimulator/haplome.build/DerivedSources -c /Users/todd/Documents/haplome/haplome/haplome_Prefix.pch -o /var/folders/oT/oTOthEerFHuJ11TzxzJ3PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/haplome_Prefix-gwujbyqkxqgsyggxqorimahsvnzx/haplome_Prefix.pch.gch0#
 
 CTouch /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
-s312741665.476408
-e312741665.479188
+s312782522.880072
+e312782522.882665
 r1
 xTouch
 x/Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app
-lSLF07#2@83"Touch /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app312741665#312741665#0(0"0(0#0#0"8614928384#276"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app0#
+lSLF07#2@83"Touch /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app312782522#312782522#0(0"0(0#0#0"8605262144#276"    cd /Users/todd/Documents/haplome/haplome    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/todd/Documents/haplome/haplome/build/Debug-iphonesimulator/haplome.app0#
 

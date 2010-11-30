@@ -33,6 +33,8 @@
 @class MainViewController;
 @class Reachability;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
+	int yNumPads;
+	int xNumPads;
     UIWindow *window;
 	NSString *oscPrefix;
 	MainViewController *mainViewController;
@@ -48,6 +50,9 @@
 @property (nonatomic, retain) OSCManager *manager;
 @property (nonatomic, retain) NSString *oscPrefix;
 @property (nonatomic, retain) OSCOutPort *outPort;
+- (void)setupDefaults;
+- (void)setupListeners;
+- (void) receivedConnectionInfo:(OSCMessage *)message;
 - (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;

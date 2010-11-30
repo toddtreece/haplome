@@ -44,23 +44,38 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-    // Override point for customization after application launch.
-    oscPrefix = @"/osc";
-	[UIApplication sharedApplication].idleTimerDisabled = YES;
-	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	[self setupDefaults];
+	[self setupListeners];
 	mainViewController = [MainViewController alloc];
 	[window addSubview:mainViewController.view];
 	[self.window makeKeyAndVisible];
-	manager = [[OSCManager alloc] init];
-	[manager setDelegate:self];
-	[manager createNewInputForPort:1234];
-	outPort = [manager createNewOutputToAddress:@"10.0.100.5" atPort:8000];
+    return YES;
+}
+
+- (void)setupListeners{
+	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
 	wifiReach = [[Reachability reachabilityForLocalWiFi] retain];
 	[wifiReach startNotifier];
 	[self updateInterfaceWithReachability: wifiReach];
-    return YES;
+	manager = [[OSCManager alloc] init];
+	[manager setDelegate:self];
+	[manager createNewInputForPort:1234 withLabel:@"haplome"];
+}
+
+- (void)setupDefaults {
+	oscPrefix = @"/osc";
+	[UIApplication sharedApplication].idleTimerDisabled = YES;
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] != nil) {
+		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
+	} else {
+		xNumPads=8;
+	}
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] != nil) {
+		yNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"yval_pref"] intValue];
+	} else {
+		yNumPads=8;
+	}
 }
 
 - (void) receivedOSCMessage:(OSCMessage *)m     {
@@ -68,7 +83,15 @@
 	NSString *addy = [m address];
 	if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led"]]]) {
 		[self receivedLed:m];
+	} else if ([addy isEqualToString:@"/sys/connection"]) {
+		[self receivedConnectionInfo:m];
 	}
+}
+
+- (void) receivedConnectionInfo:(OSCMessage *)message {
+	NSString *ipAddress = [[[message valueArray] objectAtIndex:0] stringValue];
+	int portInfo = [[[message valueArray] objectAtIndex:1] intValue];
+	outPort = [manager createNewOutputToAddress:ipAddress atPort:portInfo withLabel:@"haplome"];
 }
 
 - (void) receivedLed:(OSCMessage *)message {
@@ -76,17 +99,13 @@
 	int rowVal = [[[message valueArray] objectAtIndex:1] intValue];
 	int command = [[[message valueArray] objectAtIndex:2] intValue];
 	if(command == 1) {
-		if(colVal <= 7 && rowVal <=7){
+		if(colVal < yNumPads && rowVal < xNumPads){
 			[mainViewController lightOn:rowVal withCol:colVal];
-			[window setNeedsDisplay];
 		}
-	}
-	
-	if(command == 0) {
-		if(colVal <= 7 && rowVal <=7){
+	} else if(command == 0) {
+		if(colVal < yNumPads && rowVal < xNumPads){
 			[mainViewController lightOff:rowVal withCol:colVal];
 		}
-		
 	}
 }
 

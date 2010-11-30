@@ -66,6 +66,7 @@
 				<string>2 Rows</string>
 				<string>4 Rows</string>
 				<string>8 Rows</string>
+				<string>16 Rows</string>
 			</array>
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
@@ -74,6 +75,7 @@
 				<integer>2</integer>
 				<integer>4</integer>
 				<integer>8</integer>
+				<integer>16</integer>
 			</array>
 		</dict>
 		<dict>
@@ -88,6 +90,7 @@
 				<string>2 Columns</string>
 				<string>4 Columns</string>
 				<string>8 Columns</string>
+				<string>16 Columns</string>
 			</array>
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
@@ -96,6 +99,7 @@
 				<integer>2</integer>
 				<integer>4</integer>
 				<integer>8</integer>
+				<string>16</string>
 			</array>
 		</dict>
 	</array>
