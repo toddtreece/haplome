@@ -52,6 +52,8 @@
 @property (nonatomic, retain) OSCOutPort *outPort;
 - (void)setupDefaults;
 - (void)setupListeners;
+- (void) receivedRow:(OSCMessage *)message;
+- (void) receivedCol:(OSCMessage *)message;
 - (void) receivedConnectionInfo:(OSCMessage *)message;
 - (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
