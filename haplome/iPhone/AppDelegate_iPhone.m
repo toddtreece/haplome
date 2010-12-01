@@ -144,20 +144,17 @@
 - (void) receivedRow:(OSCMessage *)message {
 	int toggleValue, i;
 	int rowVal = [[[message valueArray] objectAtIndex:0] intValue];
-	int colVal = [[[message valueArray] objectAtIndex:1] intValue];
-	NSLog(@"%@",[self getBinary:colVal]);
-	int colVal2;
+	NSString *colBinary = [self getBinary:[[[message valueArray] objectAtIndex:1] intValue]];
+	NSString *col2Binary;
 	if([message valueCount] > 2){
-		colVal2 = [[[message valueArray] objectAtIndex:2] intValue];
+		col2Binary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
 	}
 	for(i=0; i < xNumPads; ++i) {
 		if(i < 8){
-			toggleValue = colVal % 2;
-			colVal = colVal / 2;
+			toggleValue = [self getIntFromString:colBinary atLocation:i];
 		} else if (i > 7) {
-			if([message valueCount] > 2){
-				toggleValue = colVal2 % 2;
-				colVal2 = colVal2 / 2;
+			if([message valueCount] > 2) {
+				toggleValue = [self getIntFromString:col2Binary atLocation:i];
 			}
 		}
 		if(toggleValue == 1) {
@@ -175,19 +172,17 @@
 - (void) receivedCol:(OSCMessage *)message {
 	int toggleValue, i;
 	int colVal = [[[message valueArray] objectAtIndex:0] intValue];
-	int rowVal = [[[message valueArray] objectAtIndex:1] intValue];
-	int rowVal2;
+	NSString *rowBinary = [self getBinary:[[[message valueArray] objectAtIndex:1] intValue]];
+	NSString *row2Binary;
 	if([message valueCount] > 2){
-		rowVal2 = [[[message valueArray] objectAtIndex:2] intValue];
+		row2Binary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
 	}
 	for(i=0; i < yNumPads; ++i) {
 		if(i < 8){
-			toggleValue = rowVal % 2;
-			rowVal = rowVal / 2;
+			toggleValue = [self getIntFromString:rowBinary atLocation:i];
 		} else if (i > 7) {
-			if([message valueCount] > 2){
-				toggleValue = rowVal2 % 2;
-				rowVal2 = rowVal2 / 2;
+			if([message valueCount] > 2) {
+				toggleValue = [self getIntFromString:row2Binary atLocation:i];
 			}
 		}
 		if(toggleValue == 1) {
@@ -204,19 +199,18 @@
 
 - (void) receivedFrame:(OSCMessage *)message {
 	int toggleValue, i;
-	int rowVal, colVal;
+	int rowVal;
+	NSString *colBinary;
 	for (rowVal = 0; rowVal < 8; ++rowVal) {
-		colVal= [[[message valueArray] objectAtIndex:rowVal] intValue];
+		colBinary = [self getBinary:[[[message valueArray] objectAtIndex:rowVal] intValue]];
 		for(i=0; i < 8; ++i) {
-			toggleValue = colVal % 2;
-			colVal = colVal / 2;
-			
+			toggleValue = [self getIntFromString:colBinary atLocation:i];
 			if(toggleValue == 1) {
-				if(colVal < 8 && i < 8){
+				if(rowVal < 8 && i < 8){
 					[mainViewController lightOn:rowVal withCol:i];
 				}				
 			} else if (toggleValue == 0) {			
-				if(colVal < 8 && i < 8){
+				if(rowVal < 8 && i < 8){
 					[mainViewController lightOff:rowVal withCol:i];
 				}
 			}
