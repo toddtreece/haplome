@@ -154,7 +154,7 @@
 			toggleValue = [self getIntFromString:colBinary atLocation:i];
 		} else if (i > 7) {
 			if([message valueCount] > 2) {
-				toggleValue = [self getIntFromString:col2Binary atLocation:i];
+				toggleValue = [self getIntFromString:col2Binary atLocation:i - 8];
 			}
 		}
 		if(toggleValue == 1) {
@@ -182,7 +182,7 @@
 			toggleValue = [self getIntFromString:rowBinary atLocation:i];
 		} else if (i > 7) {
 			if([message valueCount] > 2) {
-				toggleValue = [self getIntFromString:row2Binary atLocation:i];
+				toggleValue = [self getIntFromString:row2Binary atLocation:i -8];
 			}
 		}
 		if(toggleValue == 1) {
@@ -245,18 +245,19 @@
 -(NSString *)getBinary:(int)sentNum {
 	NSMutableString *str = [NSMutableString stringWithString:@""];
 	for(NSInteger numberCopy = sentNum; numberCopy > 0; numberCopy >>= 1) {
-		[str insertString:((numberCopy & 1) ? @"1" : @"0") atIndex:0];
+		[str appendString:((numberCopy & 1) ? @"1" : @"0")];
 	}
 	int strlength = [str length];
 	if (strlength < 8) {
 		for (strlength; strlength < 8; ++strlength) {
-			[str insertString:@"0" atIndex:0];
+			[str appendString:@"0"];
 		}
 	}
 	return [NSString stringWithString: str];
 }
 
 -(int)getIntFromString:(NSString *)theString atLocation:(int)theLocation {
+	NSLog(@"%d",theLocation);
 	NSRange theRange = {theLocation, 1};
 	return [[theString substringWithRange:theRange] intValue];
 }
