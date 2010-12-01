@@ -52,7 +52,9 @@
 @property (nonatomic, retain) OSCOutPort *outPort;
 - (void)setupDefaults;
 - (void)setupListeners;
+-(void)receivedPrefix:(OSCMessage *)message;
 - (void) receivedRow:(OSCMessage *)message;
+- (void) receivedClear:(OSCMessage *)message;
 - (void) receivedCol:(OSCMessage *)message;
 - (void) receivedConnectionInfo:(OSCMessage *)message;
 - (void) receivedLed:(OSCMessage *)message;

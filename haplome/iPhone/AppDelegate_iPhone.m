@@ -64,7 +64,7 @@
 }
 
 - (void)setupDefaults {
-	oscPrefix = @"/osc";
+	self.oscPrefix = @"/howto";
 	[UIApplication sharedApplication].idleTimerDisabled = YES;
 	if([[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] != nil) {
 		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
@@ -78,20 +78,26 @@
 	}
 }
 
-- (void) receivedOSCMessage:(OSCMessage *)m     {
+- (void) receivedOSCMessage:(OSCMessage *)m {
 	//NSLog(@"%s ... %@",__func__,m);
 	NSString *addy = [m address];
-	if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led"]]]) {
+	if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led"]]]) {
 		[self receivedLed:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led_col"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led_col"]]]) {
 		[self receivedCol:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[oscPrefix stringByAppendingString:@"/led_row"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led_row"]]]) {
 		[self receivedRow:m];
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/clear"]]]) {
+		[self receivedClear:m];
 	} else if ([addy isEqualToString:@"/sys/connection"]) {
 		[self receivedConnectionInfo:m];
 	} else if ([addy isEqualToString:@"/sys/prefix"]) {
-		oscPrefix = [[m value] stringValue];
+		[self receivedPrefix:m];
 	}
+}
+
+-(void)receivedPrefix:(OSCMessage *)message {
+	self.oscPrefix = [[message value] stringValue];
 }
 
 - (void) receivedConnectionInfo:(OSCMessage *)message {
@@ -114,15 +120,43 @@
 		}
 	}
 }
-				
+
+- (void) receivedClear:(OSCMessage *)message {
+	NSUInteger x,y;
+	int command = [[message value] intValue];
+	if(command == 1) {
+		for(y = 0; y < yNumPads; ++y) {
+			for(x = 0; x < xNumPads; ++x) {
+				[mainViewController lightOn:x withCol:y];
+			}
+		}
+	} else if(command == 0) {
+		for(y = 0; y < yNumPads; ++y) {
+			for(x = 0; x < xNumPads; ++x) {
+				[mainViewController lightOff:x withCol:y];
+			}
+		}
+	}
+}
 				
 - (void) receivedRow:(OSCMessage *)message {
 	int toggleValue, i;
 	int rowVal = [[[message valueArray] objectAtIndex:0] intValue];
 	int colVal = [[[message valueArray] objectAtIndex:1] intValue];
+	int colVal2;
+	if([message valueCount] > 2){
+		colVal2 = [[[message valueArray] objectAtIndex:2] intValue];
+	}
 	for(i=0; i < xNumPads; ++i) {
-		toggleValue = colVal % 2;
-		colVal = colVal / 2;
+		if(i < 8){
+			toggleValue = colVal % 2;
+			colVal = colVal / 2;
+		} else if (i > 7) {
+			if([message valueCount] > 2){
+				toggleValue = colVal2 % 2;
+				colVal2 = colVal2 / 2;
+			}
+		}
 		if(toggleValue == 1) {
 			if(rowVal < xNumPads && i < yNumPads){
 				[mainViewController lightOn:rowVal withCol:i];
@@ -139,9 +173,20 @@
 	int toggleValue, i;
 	int colVal = [[[message valueArray] objectAtIndex:0] intValue];
 	int rowVal = [[[message valueArray] objectAtIndex:1] intValue];
+	int rowVal2;
+	if([message valueCount] > 2){
+		rowVal2 = [[[message valueArray] objectAtIndex:2] intValue];
+	}
 	for(i=0; i < yNumPads; ++i) {
-		toggleValue = rowVal % 2;
-		rowVal = rowVal / 2;
+		if(i < 8){
+			toggleValue = rowVal % 2;
+			rowVal = rowVal / 2;
+		} else if (i > 7) {
+			if([message valueCount] > 2){
+				toggleValue = rowVal2 % 2;
+				rowVal2 = rowVal2 / 2;
+			}
+		}
 		if(toggleValue == 1) {
 			if(colVal < yNumPads && i < xNumPads){
 				[mainViewController lightOn:i withCol:colVal];
