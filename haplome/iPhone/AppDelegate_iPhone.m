@@ -58,9 +58,9 @@
 	wifiReach = [[Reachability reachabilityForLocalWiFi] retain];
 	[wifiReach startNotifier];
 	[self updateInterfaceWithReachability: wifiReach];
-	manager = [[OSCManager alloc] init];
-	[manager setDelegate:self];
-	[manager createNewInputForPort:1234 withLabel:@"haplome"];
+	self.manager = [[OSCManager alloc] init];
+	[self.manager setDelegate:self];
+	[self.manager createNewInputForPort:1234 withLabel:@"haplome"];
 }
 
 - (void)setupDefaults {
@@ -87,7 +87,9 @@
 		[self receivedCol:m];
 	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led_row"]]]) {
 		[self receivedRow:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/clear"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/frame"]]]) {
+		[self receivedFrame:m];
+	}else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/clear"]]]) {
 		[self receivedClear:m];
 	} else if ([addy isEqualToString:@"/sys/connection"]) {
 		[self receivedConnectionInfo:m];
@@ -103,7 +105,7 @@
 - (void) receivedConnectionInfo:(OSCMessage *)message {
 	NSString *ipAddress = [[[message valueArray] objectAtIndex:0] stringValue];
 	int portInfo = [[[message valueArray] objectAtIndex:1] intValue];
-	outPort = [manager createNewOutputToAddress:ipAddress atPort:portInfo withLabel:@"haplome"];
+	self.outPort = [self.manager createNewOutputToAddress:ipAddress atPort:portInfo];
 }
 
 - (void) receivedLed:(OSCMessage *)message {
@@ -143,6 +145,7 @@
 	int toggleValue, i;
 	int rowVal = [[[message valueArray] objectAtIndex:0] intValue];
 	int colVal = [[[message valueArray] objectAtIndex:1] intValue];
+	NSLog(@"%@",[self getBinary:colVal]);
 	int colVal2;
 	if([message valueCount] > 2){
 		colVal2 = [[[message valueArray] objectAtIndex:2] intValue];
@@ -199,6 +202,28 @@
 	}
 }
 
+- (void) receivedFrame:(OSCMessage *)message {
+	int toggleValue, i;
+	int rowVal, colVal;
+	for (rowVal = 0; rowVal < 8; ++rowVal) {
+		colVal= [[[message valueArray] objectAtIndex:rowVal] intValue];
+		for(i=0; i < 8; ++i) {
+			toggleValue = colVal % 2;
+			colVal = colVal / 2;
+			
+			if(toggleValue == 1) {
+				if(colVal < 8 && i < 8){
+					[mainViewController lightOn:rowVal withCol:i];
+				}				
+			} else if (toggleValue == 0) {			
+				if(colVal < 8 && i < 8){
+					[mainViewController lightOff:rowVal withCol:i];
+				}
+			}
+		}
+	}
+}
+
 - (void) updateInterfaceWithReachability: (Reachability*) curReach {
 	if(curReach == wifiReach) {	
 		NetworkStatus netStatus = [curReach currentReachabilityStatus];
@@ -223,61 +248,40 @@
 	[alertView release];
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    /*
-     Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-     Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-     */
+-(NSString *)getBinary:(int)sentNum {
+	NSMutableString *str = [NSMutableString stringWithString:@""];
+	for(NSInteger numberCopy = sentNum; numberCopy > 0; numberCopy >>= 1) {
+		[str insertString:((numberCopy & 1) ? @"1" : @"0") atIndex:0];
+	}
+	int strlength = [str length];
+	if (strlength < 8) {
+		for (strlength; strlength < 8; ++strlength) {
+			[str insertString:@"0" atIndex:0];
+		}
+	}
+	return [NSString stringWithString: str];
 }
 
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    /*
-     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-     If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
-     */
+-(int)getIntFromString:(NSString *)theString atLocation:(int)theLocation {
+	NSRange theRange = {theLocation, 1};
+	return [[theString substringWithRange:theRange] intValue];
 }
 
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    /*
-     Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
-     */
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-     */
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    /*
-     Called when the application is about to terminate.
-     See also applicationDidEnterBackground:.
-     */
-}
-
-- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y
-{
-	OSCMessage *newMsg = [OSCMessage createWithAddress:@"/osc/press"];
+- (void) activateView:(NSUInteger)x withCol:(NSUInteger)y {
+	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/press"]]];
 	[newMsg addInt:y];
 	[newMsg addInt:x];
 	[newMsg addInt:1];
-	[outPort sendThisMessage:newMsg];
-	//[mainViewController lightOn:x withCol:y];
+	[self.outPort sendThisMessage:newMsg];
 }
 
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
 {
-	OSCMessage *newMsg = [OSCMessage createWithAddress:@"/osc/press"];
+	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/press"]]];
 	[newMsg addInt:y];
 	[newMsg addInt:x];
 	[newMsg addInt:0];
-	[outPort sendThisMessage:newMsg];
-	//[mainViewController lightOff:x withCol:y];
+	[self.outPort sendThisMessage:newMsg];
 }
 
 #pragma mark -

@@ -1,5 +1,0 @@
-/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone receivedOSCMessage:]':
-/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:87: warning: 'AppDelegate_iPhone' may not respond to '-receivedConnectionInfo:'
-/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:87: warning: (Messages without a matching method signature
-/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:87: warning: will be assumed to return 'id' and accept
-/Users/todd/Documents/haplome/haplome/iPhone/AppDelegate_iPhone.m:87: warning: '...' as arguments.)

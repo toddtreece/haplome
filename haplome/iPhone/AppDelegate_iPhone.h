@@ -50,17 +50,20 @@
 @property (nonatomic, retain) OSCManager *manager;
 @property (nonatomic, retain) NSString *oscPrefix;
 @property (nonatomic, retain) OSCOutPort *outPort;
-- (void)setupDefaults;
-- (void)setupListeners;
--(void)receivedPrefix:(OSCMessage *)message;
+- (void) setupDefaults;
+- (void) setupListeners;
+- (void) receivedPrefix:(OSCMessage *)message;
 - (void) receivedRow:(OSCMessage *)message;
 - (void) receivedClear:(OSCMessage *)message;
 - (void) receivedCol:(OSCMessage *)message;
 - (void) receivedConnectionInfo:(OSCMessage *)message;
+- (void) receivedFrame:(OSCMessage *)message;
 - (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) updateInterfaceWithReachability: (Reachability*) curReach;
 - (void) _showAlert:(NSString*)title;
+- (NSString *) getBinary:(int)sentNum;
+- (int) getIntFromString:(NSString *)theString atLocation:(int)theLocation;
 @end
 
