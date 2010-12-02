@@ -31,6 +31,7 @@
 #import "AppDelegate_iPhone.h"
 #import "Reachability.h"
 #import "MainViewController.h"
+#import "NSObject+DDExtensions.h"
 #define kHaplomeIdentifier		@"haplome"
 
 
@@ -114,11 +115,11 @@
 	int command = [[[message valueArray] objectAtIndex:2] intValue];
 	if(command == 1) {
 		if(colVal < yNumPads && rowVal < xNumPads){
-			[mainViewController lightOn:rowVal withCol:colVal];
+			[[mainViewController dd_invokeOnMainThread] lightOn:rowVal withCol:colVal];
 		}
 	} else if(command == 0) {
 		if(colVal < yNumPads && rowVal < xNumPads){
-			[mainViewController lightOff:rowVal withCol:colVal];
+			[[mainViewController dd_invokeOnMainThread] lightOff:rowVal withCol:colVal];
 		}
 	}
 }
@@ -129,13 +130,13 @@
 	if(command == 1) {
 		for(y = 0; y < yNumPads; ++y) {
 			for(x = 0; x < xNumPads; ++x) {
-				[mainViewController lightOn:x withCol:y];
+				[[mainViewController dd_invokeOnMainThread] lightOn:x withCol:y];
 			}
 		}
 	} else if(command == 0) {
 		for(y = 0; y < yNumPads; ++y) {
 			for(x = 0; x < xNumPads; ++x) {
-				[mainViewController lightOff:x withCol:y];
+				[[mainViewController dd_invokeOnMainThread] lightOff:x withCol:y];
 			}
 		}
 	}
@@ -159,11 +160,11 @@
 		}
 		if(toggleValue == 1) {
 			if(rowVal < xNumPads && i < yNumPads){
-				[mainViewController lightOn:rowVal withCol:i];
+				[[mainViewController dd_invokeOnMainThread] lightOn:rowVal withCol:i];
 			}				
 		} else if (toggleValue == 0) {
 			if(rowVal < xNumPads && i < yNumPads){
-				[mainViewController lightOff:rowVal withCol:i];
+				[[mainViewController dd_invokeOnMainThread] lightOff:rowVal withCol:i];
 			}
 		}
 	}
@@ -187,11 +188,11 @@
 		}
 		if(toggleValue == 1) {
 			if(colVal < yNumPads && i < xNumPads){
-				[mainViewController lightOn:i withCol:colVal];
+				[[mainViewController dd_invokeOnMainThread] lightOn:i withCol:colVal];
 			}				
 		} else if (toggleValue == 0) {			
 			if(colVal < yNumPads && i < xNumPads){
-				[mainViewController lightOff:i withCol:colVal];
+				[[mainViewController dd_invokeOnMainThread] lightOff:i withCol:colVal];
 			}
 		}
 	}
@@ -207,11 +208,11 @@
 			toggleValue = [self getIntFromString:colBinary atLocation:i];
 			if(toggleValue == 1) {
 				if(rowVal < 8 && i < 8){
-					[mainViewController lightOn:rowVal withCol:i];
+					[[mainViewController dd_invokeOnMainThread] lightOn:rowVal withCol:i];
 				}				
 			} else if (toggleValue == 0) {			
 				if(rowVal < 8 && i < 8){
-					[mainViewController lightOff:rowVal withCol:i];
+					[[mainViewController dd_invokeOnMainThread] lightOff:rowVal withCol:i];
 				}
 			}
 		}
@@ -257,7 +258,6 @@
 }
 
 -(int)getIntFromString:(NSString *)theString atLocation:(int)theLocation {
-	NSLog(@"%d",theLocation);
 	NSRange theRange = {theLocation, 1};
 	return [[theString substringWithRange:theRange] intValue];
 }

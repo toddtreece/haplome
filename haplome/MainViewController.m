@@ -61,14 +61,16 @@
 	MainView *mainView = (MainView *)self.view;
 	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
 	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor performSelector:NSSelectorFromString(highlightColor)] forKey:@"fill"];
-	[mainView performSelectorOnMainThread:@selector(setNeedsDisplay) withObject:0 waitUntilDone:NO];
+	[mainView setNeedsDisplay];
+	//[mainView performSelectorOnMainThread:@selector(setNeedsDisplay) withObject:0 waitUntilDone:NO];
 }
 
 - (void)lightOff:(int)rowVal withCol:(int)colVal {
 	MainView *mainView = (MainView *)self.view;
 	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				
 	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[UIColor performSelector:NSSelectorFromString(backColor)] forKey:@"fill"];
-	[mainView performSelectorOnMainThread:@selector(setNeedsDisplay) withObject:0 waitUntilDone:NO];
+	[mainView setNeedsDisplay];
+	//[mainView performSelectorOnMainThread:@selector(setNeedsDisplay) withObject:0 waitUntilDone:NO];
 }
 
 - (void)didReceiveMemoryWarning {

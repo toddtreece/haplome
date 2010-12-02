@@ -22,6 +22,8 @@
 		5F20A235128A018400C07BC5 /* picker_768.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F20A233128A018400C07BC5 /* picker_768.png */; };
 		5F20A257128A029400C07BC5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20A256128A029400C07BC5 /* Reachability.m */; };
 		5F20A268128A0B8C00C07BC5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20A267128A0B8C00C07BC5 /* SystemConfiguration.framework */; };
+		5F5EBA7512A72C56000495B5 /* DDInvocationGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EBA7212A72C56000495B5 /* DDInvocationGrabber.m */; };
+		5F5EBA7612A72C56000495B5 /* NSObject+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EBA7412A72C56000495B5 /* NSObject+DDExtensions.m */; };
 		5F6C20A81285CDBD0050318C /* banner_320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C20A61285CDBD0050318C /* banner_320.png */; };
 		5F6C20A91285CDBD0050318C /* banner_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C20A71285CDBD0050318C /* banner_640.png */; };
 		5F6C21091285D44E0050318C /* banner_768.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C21081285D44E0050318C /* banner_768.png */; };
@@ -59,6 +61,10 @@
 		5F20A255128A029400C07BC5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5F20A256128A029400C07BC5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5F20A267128A0B8C00C07BC5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5F5EBA7112A72C56000495B5 /* DDInvocationGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDInvocationGrabber.h; sourceTree = "<group>"; };
+		5F5EBA7212A72C56000495B5 /* DDInvocationGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDInvocationGrabber.m; sourceTree = "<group>"; };
+		5F5EBA7312A72C56000495B5 /* NSObject+DDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DDExtensions.h"; sourceTree = "<group>"; };
+		5F5EBA7412A72C56000495B5 /* NSObject+DDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DDExtensions.m"; sourceTree = "<group>"; };
 		5F6C20A61285CDBD0050318C /* banner_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_320.png; sourceTree = "<group>"; };
 		5F6C20A71285CDBD0050318C /* banner_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_640.png; sourceTree = "<group>"; };
 		5F6C21081285D44E0050318C /* banner_768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_768.png; sourceTree = "<group>"; };
@@ -124,6 +130,10 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5F5EBA7112A72C56000495B5 /* DDInvocationGrabber.h */,
+				5F5EBA7212A72C56000495B5 /* DDInvocationGrabber.m */,
+				5F5EBA7312A72C56000495B5 /* NSObject+DDExtensions.h */,
+				5F5EBA7412A72C56000495B5 /* NSObject+DDExtensions.m */,
 				5F990CE6128093F5005A5B47 /* MainViewController.h */,
 				5F990CE7128093F5005A5B47 /* MainViewController.m */,
 				5F990CE3128093E8005A5B47 /* MainView.h */,
@@ -277,6 +287,8 @@
 				5F990CE5128093E8005A5B47 /* MainView.m in Sources */,
 				5F990CE8128093F5005A5B47 /* MainViewController.m in Sources */,
 				5F20A257128A029400C07BC5 /* Reachability.m in Sources */,
+				5F5EBA7512A72C56000495B5 /* DDInvocationGrabber.m in Sources */,
+				5F5EBA7612A72C56000495B5 /* NSObject+DDExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
