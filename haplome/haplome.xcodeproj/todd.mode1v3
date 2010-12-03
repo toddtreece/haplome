@@ -275,13 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>14</integer>
 									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 660}}</string>
+							<string>{{0, 89}, {186, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.m</string>
+								<string>MainView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.m</string>
+										<string>MainView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5F5EBA9412A734AB000495B5</string>
+										<string>5F6DEDC812A891B500FD84BB</string>
 										<key>history</key>
 										<array>
 											<string>5F9CDEB512844A050084AE8F</string>
@@ -344,17 +344,17 @@
 											<string>5FB0FB3412A3FC8F009CDEE6</string>
 											<string>5FB0FB3512A3FC8F009CDEE6</string>
 											<string>5F2C3CB012A5B04200E81EE8</string>
-											<string>5F0ED72212A5C9D1004EE58E</string>
 											<string>5F5EBA5112A722C7000495B5</string>
 											<string>5F5EBA7C12A72D74000495B5</string>
 											<string>5F5EBA7D12A72D74000495B5</string>
 											<string>5F5EBA7F12A72D74000495B5</string>
 											<string>5F5EBA8E12A734AB000495B5</string>
-											<string>5F5EBA8F12A734AB000495B5</string>
-											<string>5F5EBA9012A734AB000495B5</string>
 											<string>5F5EBA9112A734AB000495B5</string>
-											<string>5F5EBA9212A734AB000495B5</string>
-											<string>5F5EBA9312A734AB000495B5</string>
+											<string>5FD7773F12A8445C0035FA46</string>
+											<string>5F6DEDC412A891B500FD84BB</string>
+											<string>5F6DEDC512A891B500FD84BB</string>
+											<string>5F6DEDC612A891B500FD84BB</string>
+											<string>5F6DEDC712A891B500FD84BB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -366,14 +366,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 382}}</string>
+								<string>{{0, 0}, {1072, 354}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>382pt</string>
+							<string>354pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -386,14 +386,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 387}, {1072, 291}}</string>
+								<string>{{0, 359}, {1072, 319}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>291pt</string>
+							<string>319pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -412,9 +412,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5F5EBA9512A734AB000495B5</string>
+				<string>5F6DEDC912A891B500FD84BB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5F5EBA9612A734AB000495B5</string>
+				<string>5F6DEDCA12A891B500FD84BB</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -552,10 +552,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5F5EBA9F12A734AB000495B5</string>
-		<string>5F5EBAA012A734AB000495B5</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5F990D1212809AE9005A5B47</string>
 		<string>/Users/todd/Documents/haplome/haplome/haplome.xcodeproj</string>
 	</array>
@@ -637,7 +633,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5F990D1212809AE9005A5B47</string>
-				<string>5F5EBA9712A734AB000495B5</string>
+				<string>5F6DEDCB12A891B500FD84BB</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
