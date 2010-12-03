@@ -57,6 +57,12 @@
     [super viewDidLoad];
 }
 
+- (void)setLedState:(BOOL)state atRow:(int)rowVal atCol:(int)colVal {
+	MainView *mainView = (MainView *)self.view;
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"state"];
+	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] setObject:[NSNumber numberWithBool:state] forKey:@"state"];	
+}
+
 - (void)lightOn:(int)rowVal withCol:(int)colVal {
 	MainView *mainView = (MainView *)self.view;
 	[[[mainView.buttonArray objectForKey:[NSNumber numberWithInt:colVal]] objectForKey:[NSNumber numberWithInt:rowVal]] removeObjectForKey:@"fill"];				

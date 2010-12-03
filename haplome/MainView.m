@@ -86,6 +86,11 @@
 	} else {
 		yNumPads=8;
 	}
+	if([[NSUserDefaults standardUserDefaults] stringForKey:@"drag"] != nil) {
+		drag = [[[NSUserDefaults standardUserDefaults] stringForKey:@"drag"] boolValue];
+	} else {
+		drag=YES;
+	}
 	NSMutableDictionary *yArray = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *xArray = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *propertyArray = [[NSMutableDictionary alloc] init];
@@ -101,6 +106,7 @@
 			xvalue = xNumPads - x - 1;
 			rectObject = [NSValue valueWithCGRect:CGRectMake(self.frame.origin.x + x * self.frame.size.width / (float)xNumPads, self.frame.origin.y + y * self.frame.size.height / (float)yNumPads, self.frame.size.width / (float)xNumPads, self.frame.size.height / (float)yNumPads)];
 			[propertyArray setObject:rectObject forKey:@"rect"];
+			[propertyArray setObject:[NSNumber numberWithBool:NO] forKey:@"state"];
 			[propertyArray setObject:[UIColor performSelector:NSSelectorFromString(backColor)] forKey:@"fill"];
 			if([backColor isEqualToString:@"whiteColor"]){
 				[propertyArray setObject:[UIColor blackColor] forKey:@"stroke"];
@@ -139,7 +145,9 @@
 			for (UITouch *touch in touches){
 				CGPoint location = [touch locationInView:self];
 				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
-					[appDelegate activateView:x withCol:y];
+					if ([[dictionary objectForKey:@"state"] boolValue] == NO) {
+						[appDelegate activateView:x withCol:y];
+					}
 				}
 			}
 		}
@@ -149,7 +157,46 @@
 
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	
+	AppDelegate_iPhone *appDelegate = (AppDelegate_iPhone *)[[UIApplication sharedApplication] delegate];
+	NSUInteger x,y;
+	NSDictionary *dictionary;
+	for(y = 0; y < yNumPads; ++y) {
+		for(x = 0; x < xNumPads; ++x) {
+			dictionary = [NSDictionary dictionaryWithDictionary:[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]]];
+			rectObject = [dictionary objectForKey:@"rect"];
+			for (UITouch *touch in touches){
+				CGPoint location = [touch locationInView:self];
+				CGPoint prevLocation = [touch previousLocationInView:self];
+				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
+					if (CGRectContainsPoint([rectObject CGRectValue], prevLocation) == NO) {
+						[self deactivateView:prevLocation];
+						if(drag) {
+							if ([[dictionary objectForKey:@"state"] boolValue] == NO) {
+								[appDelegate activateView:x withCol:y];
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+- (void)deactivateView:(CGPoint)location {
+	AppDelegate_iPhone *appDelegate = (AppDelegate_iPhone *)[[UIApplication sharedApplication] delegate];
+	NSUInteger x,y;
+	NSDictionary *dictionary;
+	for(y = 0; y < yNumPads; ++y) {
+		for(x = 0; x < xNumPads; ++x) {
+			dictionary = [NSDictionary dictionaryWithDictionary:[[buttonArray objectForKey:[NSNumber numberWithInt:y]] objectForKey:[NSNumber numberWithInt:x]]];
+			rectObject = [dictionary objectForKey:@"rect"];
+			if (CGRectContainsPoint([rectObject CGRectValue], location)) {
+				if ([[dictionary objectForKey:@"state"] boolValue] == YES) {
+					[appDelegate deactivateView:x withCol:y];
+				}
+			}
+		}
+	}
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -163,7 +210,9 @@
 			for (UITouch *touch in touches){
 				CGPoint location = [touch locationInView:self];
 				if (CGRectContainsPoint([rectObject CGRectValue], location)) {
-					[appDelegate deactivateView:x withCol:y];
+					if ([[dictionary objectForKey:@"state"] boolValue] == YES) {
+						[appDelegate deactivateView:x withCol:y];
+					}
 				}
 			}
 		}

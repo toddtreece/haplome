@@ -3,29 +3,57 @@
 <plist version="1.0">
 <dict>
 	<key>Title</key>
-	<string>YOUR_PROJECT_NAME</string>
+	<string>haplome</string>
 	<key>StringsTable</key>
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
 	<array>
 		<dict>
 			<key>DefaultValue</key>
-			<string>whiteColor</string>
+			<integer>8</integer>
 			<key>Key</key>
-			<string>back_pref</string>
+			<string>yval_pref</string>
 			<key>Title</key>
-			<string>Background Color</string>
+			<string>Grid Columns</string>
 			<key>Titles</key>
 			<array>
-				<string>White</string>
-				<string>Black</string>
+				<string>2 Columns</string>
+				<string>4 Columns</string>
+				<string>8 Columns</string>
+				<string>16 Columns</string>
 			</array>
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
 			<key>Values</key>
 			<array>
-				<string>whiteColor</string>
-				<string>blackColor</string>
+				<integer>2</integer>
+				<integer>4</integer>
+				<integer>8</integer>
+				<string>16</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>8</integer>
+			<key>Key</key>
+			<string>xval_pref</string>
+			<key>Title</key>
+			<string>Grid Rows</string>
+			<key>Titles</key>
+			<array>
+				<string>2 Rows</string>
+				<string>4 Rows</string>
+				<string>8 Rows</string>
+				<string>16 Rows</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>2</integer>
+				<integer>4</integer>
+				<integer>8</integer>
+				<integer>16</integer>
 			</array>
 		</dict>
 		<dict>
@@ -56,51 +84,37 @@
 		</dict>
 		<dict>
 			<key>DefaultValue</key>
-			<integer>8</integer>
+			<string>whiteColor</string>
 			<key>Key</key>
-			<string>xval_pref</string>
+			<string>back_pref</string>
 			<key>Title</key>
-			<string>Grid Rows</string>
+			<string>Background Color</string>
 			<key>Titles</key>
 			<array>
-				<string>2 Rows</string>
-				<string>4 Rows</string>
-				<string>8 Rows</string>
-				<string>16 Rows</string>
+				<string>White</string>
+				<string>Black</string>
 			</array>
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
 			<key>Values</key>
 			<array>
-				<integer>2</integer>
-				<integer>4</integer>
-				<integer>8</integer>
-				<integer>16</integer>
+				<string>whiteColor</string>
+				<string>blackColor</string>
 			</array>
 		</dict>
 		<dict>
 			<key>DefaultValue</key>
-			<integer>8</integer>
+			<true/>
 			<key>Key</key>
-			<string>yval_pref</string>
+			<string>drag</string>
 			<key>Title</key>
-			<string>Grid Columns</string>
-			<key>Titles</key>
-			<array>
-				<string>2 Columns</string>
-				<string>4 Columns</string>
-				<string>8 Columns</string>
-				<string>16 Columns</string>
-			</array>
+			<string>Drag Activation</string>
 			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Values</key>
-			<array>
-				<integer>2</integer>
-				<integer>4</integer>
-				<integer>8</integer>
-				<string>16</string>
-			</array>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>TrueValue</key>
+			<true/>
+			<key>FalseValue</key>
+			<false/>
 		</dict>
 	</array>
 </dict>

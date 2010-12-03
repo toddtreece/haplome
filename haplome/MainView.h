@@ -37,9 +37,11 @@
 	NSDictionary *buttonArray;
 	NSValue *rectObject;
 	BOOL setup;
+	BOOL drag;
 }
 @property (nonatomic,retain) NSDictionary *buttonArray;
 @property (nonatomic,retain) NSValue *rectObject;
 @property (nonatomic,retain) NSString * backColor;
+- (void)deactivateView:(CGPoint)location;
 -(void)setupView;
 @end

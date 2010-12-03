@@ -268,15 +268,16 @@
 	[newMsg addInt:x];
 	[newMsg addInt:1];
 	[self.outPort sendThisMessage:newMsg];
+	[mainViewController setLedState:YES atRow:x atCol:y];
 }
 
-- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y
-{
+- (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y {
 	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/press"]]];
 	[newMsg addInt:y];
 	[newMsg addInt:x];
 	[newMsg addInt:0];
 	[self.outPort sendThisMessage:newMsg];
+	[mainViewController setLedState:NO atRow:x atCol:y];
 }
 
 #pragma mark -

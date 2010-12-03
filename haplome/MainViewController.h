@@ -38,4 +38,5 @@
 @property (nonatomic,retain) NSString * highlightColor;
 - (void)lightOn:(int)rowVal withCol:(int)colVal;
 - (void)lightOff:(int)rowVal withCol:(int)colVal;
+- (void)setLedState:(BOOL)state atRow:(int)rowVal atCol:(int)colVal;
 @end

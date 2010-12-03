@@ -4,4 +4,4 @@
 "color_pref" = "orangeColor";
 "xval_pref" = "8";
 "yval_pref" = "8";
-"orient" = "NO";
+"drag" = "NO";
