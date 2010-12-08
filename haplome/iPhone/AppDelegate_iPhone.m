@@ -65,7 +65,7 @@
 }
 
 - (void)setupDefaults {
-	self.oscPrefix = @"/howto";
+	self.oscPrefix = @"/mlr";
 	[UIApplication sharedApplication].idleTimerDisabled = YES;
 	if([[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] != nil) {
 		xNumPads = [[[NSUserDefaults standardUserDefaults] stringForKey:@"xval_pref"] intValue];
@@ -96,11 +96,36 @@
 		[self receivedConnectionInfo:m];
 	} else if ([addy isEqualToString:@"/sys/prefix"]) {
 		[self receivedPrefix:m];
+	} else if ([addy isEqualToString:@"/sys/report"]) {
+		[self receivedReport:m];
 	}
 }
 
 -(void)receivedPrefix:(OSCMessage *)message {
 	self.oscPrefix = [[message value] stringValue];
+}
+
+-(void)receivedReport:(OSCMessage *)message {
+	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/devices"]]];
+	[newMsg addInt:1];
+	[self.outPort sendThisMessage:newMsg];
+	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/prefix"]]];
+	//[newMsg addInt:0];
+	[newMsg addString:self.oscPrefix];
+	[self.outPort sendThisMessage:newMsg];
+	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/type"]]];
+	//[newMsg addInt:0];
+	[newMsg addInt:(xNumPads * yNumPads)];
+	[self.outPort sendThisMessage:newMsg];
+	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/cable"]]];
+	//[newMsg addInt:0];
+	[newMsg addString:@"up"];
+	[self.outPort sendThisMessage:newMsg];
+	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/offset"]]];
+	//[newMsg addInt:0];
+	[newMsg addInt:0];
+	[newMsg addInt:0];
+	[self.outPort sendThisMessage:newMsg];
 }
 
 - (void) receivedConnectionInfo:(OSCMessage *)message {
