@@ -110,19 +110,15 @@
 	[newMsg addInt:1];
 	[self.outPort sendThisMessage:newMsg];
 	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/prefix"]]];
-	//[newMsg addInt:0];
 	[newMsg addString:self.oscPrefix];
 	[self.outPort sendThisMessage:newMsg];
 	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/type"]]];
-	//[newMsg addInt:0];
 	[newMsg addInt:(xNumPads * yNumPads)];
 	[self.outPort sendThisMessage:newMsg];
 	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/cable"]]];
-	//[newMsg addInt:0];
 	[newMsg addString:@"up"];
 	[self.outPort sendThisMessage:newMsg];
 	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/offset"]]];
-	//[newMsg addInt:0];
 	[newMsg addInt:0];
 	[newMsg addInt:0];
 	[self.outPort sendThisMessage:newMsg];
@@ -315,6 +311,7 @@
 }
 
 - (void)dealloc {
+	[manager release];
 	[outPort release];
 	[mainViewController release];
 	[oscPrefix release];
