@@ -32,11 +32,15 @@
 #import "Reachability.h"
 #import "MainViewController.h"
 #import "NSObject+DDExtensions.h"
+#include <ifaddrs.h>
+#include <arpa/inet.h>
+
 #define kHaplomeIdentifier		@"haplome"
 
 
 @implementation AppDelegate_iPhone
 @synthesize oscPrefix;
+@synthesize inPort;
 @synthesize outPort;
 @synthesize manager;
 @synthesize window;
@@ -61,7 +65,7 @@
 	[self updateInterfaceWithReachability: wifiReach];
 	self.manager = [[OSCManager alloc] init];
 	[self.manager setDelegate:self];
-	[self.manager createNewInputForPort:1234 withLabel:@"haplome"];
+	self.inPort = [self.manager createNewInputForPort:4321 withLabel:@"haplome"];
 }
 
 - (void)setupDefaults {
@@ -82,52 +86,71 @@
 - (void) receivedOSCMessage:(OSCMessage *)m {
 	//NSLog(@"%s ... %@",__func__,m);
 	NSString *addy = [m address];
-	if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led"]]]) {
+	if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/led/set"]]]) {
 		[self receivedLed:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led_col"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/led/col"]]]) {
 		[self receivedCol:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/led_row"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/led/row"]]]) {
 		[self receivedRow:m];
-	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/frame"]]]) {
+	} else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/led/map"]]]) {
 		[self receivedFrame:m];
-	}else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/clear"]]]) {
-		[self receivedClear:m];
-	} else if ([addy isEqualToString:@"/sys/connection"]) {
-		[self receivedConnectionInfo:m];
+	}else if ([addy isEqualToString:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/led/all"]]]) {
+		[self receivedAll:m];
+	} else if ([addy isEqualToString:@"/sys/info"]) {
+		[self receivedInfo:m];
 	} else if ([addy isEqualToString:@"/sys/prefix"]) {
 		[self receivedPrefix:m];
-	} else if ([addy isEqualToString:@"/sys/report"]) {
-		[self receivedReport:m];
+	} else if ([addy isEqualToString:@"/sys/port"]) {
+		[self receivedPort:m];
 	}
 }
 
 -(void)receivedPrefix:(OSCMessage *)message {
 	self.oscPrefix = [[message value] stringValue];
-}
-
--(void)receivedReport:(OSCMessage *)message {
-	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/devices"]]];
-	[newMsg addInt:1];
-	[self.outPort sendThisMessage:newMsg];
-	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/prefix"]]];
+    
+    OSCMessage *newMsg = [OSCMessage createWithAddress:@"/sys/prefix"];
 	[newMsg addString:self.oscPrefix];
 	[self.outPort sendThisMessage:newMsg];
-	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/type"]]];
-	[newMsg addInt:(xNumPads * yNumPads)];
-	[self.outPort sendThisMessage:newMsg];
-	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/cable"]]];
-	[newMsg addString:@"up"];
-	[self.outPort sendThisMessage:newMsg];
-	newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/sys/offset"]]];
-	[newMsg addInt:0];
-	[newMsg addInt:0];
+}
+
+-(void)receivedPort:(OSCMessage *)message {
+
+	port = [[message value] intValue];
+    [self.manager createNewInputForPort:port withLabel:@"haplome"];
+    self.outPort = [self.manager createNewOutputToAddress:[inPort remoteAddress] atPort:port];
+    
+    OSCMessage *newMsg = [OSCMessage createWithAddress:@"/sys/port"];
+	[newMsg addInt:port];
 	[self.outPort sendThisMessage:newMsg];
 }
 
-- (void) receivedConnectionInfo:(OSCMessage *)message {
-	NSString *ipAddress = [[[message valueArray] objectAtIndex:0] stringValue];
-	int portInfo = [[[message valueArray] objectAtIndex:1] intValue];
-	self.outPort = [self.manager createNewOutputToAddress:ipAddress atPort:portInfo];
+-(void)receivedInfo:(OSCMessage *)message {
+    
+    OSCMessage *newMsg = [OSCMessage createWithAddress:@"/sys/id"];
+	[newMsg addString:@"m0000666"];
+	[self.outPort sendThisMessage:newMsg];
+    
+    newMsg = [OSCMessage createWithAddress:@"/sys/prefix"];
+	[newMsg addString:self.oscPrefix];
+	[self.outPort sendThisMessage:newMsg];
+    
+	newMsg = [OSCMessage createWithAddress:@"/sys/port"];
+	[newMsg addInt:port];
+	[self.outPort sendThisMessage:newMsg];
+    
+    newMsg = [OSCMessage createWithAddress:@"/sys/host"];
+	[newMsg addString:[self getIPAddress]];
+	[self.outPort sendThisMessage:newMsg];
+
+	newMsg = [OSCMessage createWithAddress:@"/sys/size"];
+	[newMsg addInt:xNumPads];
+    [newMsg addInt:yNumPads];
+	[self.outPort sendThisMessage:newMsg];
+    
+    newMsg = [OSCMessage createWithAddress:@"/sys/rotation"];
+	[newMsg addInt:0];
+	[self.outPort sendThisMessage:newMsg];
+
 }
 
 - (void) receivedLed:(OSCMessage *)message {
@@ -145,7 +168,7 @@
 	}
 }
 
-- (void) receivedClear:(OSCMessage *)message {
+- (void) receivedAll:(OSCMessage *)message {
 	NSUInteger x,y;
 	int command = [[message value] intValue];
 	if(command == 1) {
@@ -165,17 +188,17 @@
 				
 - (void) receivedRow:(OSCMessage *)message {
 	int toggleValue, i;
-	int rowVal = [[[message valueArray] objectAtIndex:0] intValue];
-	NSString *colBinary = [self getBinary:[[[message valueArray] objectAtIndex:1] intValue]];
+	int rowVal = [[[message valueArray] objectAtIndex:1] intValue];
+	NSString *colBinary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
 	NSString *col2Binary;
-	if([message valueCount] > 2){
-		col2Binary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
+	if([message valueCount] > 3){
+		col2Binary = [self getBinary:[[[message valueArray] objectAtIndex:3] intValue]];
 	}
 	for(i=0; i < xNumPads; ++i) {
 		if(i < 8){
 			toggleValue = [self getIntFromString:colBinary atLocation:i];
 		} else if (i > 7) {
-			if([message valueCount] > 2) {
+			if([message valueCount] > 3) {
 				toggleValue = [self getIntFromString:col2Binary atLocation:i - 8];
 			}
 		}
@@ -194,17 +217,17 @@
 - (void) receivedCol:(OSCMessage *)message {
 	int toggleValue, i;
 	int colVal = [[[message valueArray] objectAtIndex:0] intValue];
-	NSString *rowBinary = [self getBinary:[[[message valueArray] objectAtIndex:1] intValue]];
+	NSString *rowBinary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
 	NSString *row2Binary;
-	if([message valueCount] > 2){
-		row2Binary = [self getBinary:[[[message valueArray] objectAtIndex:2] intValue]];
+	if([message valueCount] > 3){
+		row2Binary = [self getBinary:[[[message valueArray] objectAtIndex:3] intValue]];
 	}
 	for(i=0; i < yNumPads; ++i) {
 		if(i < 8){
 			toggleValue = [self getIntFromString:rowBinary atLocation:i];
 		} else if (i > 7) {
-			if([message valueCount] > 2) {
-				toggleValue = [self getIntFromString:row2Binary atLocation:i -8];
+			if([message valueCount] > 3) {
+				toggleValue = [self getIntFromString:row2Binary atLocation:i - 8];
 			}
 		}
 		if(toggleValue == 1) {
@@ -223,17 +246,18 @@
 	int toggleValue, i;
 	int rowVal;
 	NSString *colBinary;
-	for (rowVal = 0; rowVal < 8; ++rowVal) {
+    // start at 2 since the first two values are offsets
+	for (rowVal = 2; rowVal < 10; ++rowVal) {
 		colBinary = [self getBinary:[[[message valueArray] objectAtIndex:rowVal] intValue]];
 		for(i=0; i < 8; ++i) {
 			toggleValue = [self getIntFromString:colBinary atLocation:i];
 			if(toggleValue == 1) {
-				if(rowVal < 8 && i < 8){
-					[[mainViewController dd_invokeOnMainThread] lightOn:rowVal withCol:i];
+				if(rowVal < 10 && i < 8){
+					[[mainViewController dd_invokeOnMainThread] lightOn:(rowVal - 2) withCol:i];
 				}				
 			} else if (toggleValue == 0) {			
-				if(rowVal < 8 && i < 8){
-					[[mainViewController dd_invokeOnMainThread] lightOff:rowVal withCol:i];
+				if(rowVal < 10 && i < 8){
+					[[mainViewController dd_invokeOnMainThread] lightOff:(rowVal - 2) withCol:i];
 				}
 			}
 		}
@@ -257,8 +281,7 @@
 	[self updateInterfaceWithReachability: curReach];
 }
 
-- (void) _showAlert:(NSString*)title
-{
+- (void) _showAlert:(NSString*)title {
 	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error!" message:title delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alertView show];
 	[alertView release];
@@ -277,6 +300,36 @@
 	}
 	return [NSString stringWithString: str];
 }
+                                            
+-(NSString *)getIPAddress {
+    NSString *address = @"error";
+    struct ifaddrs *interfaces = NULL;
+    struct ifaddrs *temp_addr = NULL;
+    int success = 0;
+    
+    // retrieve the current interfaces - returns 0 on success
+    success = getifaddrs(&interfaces);
+    if (success == 0) {
+        // Loop through linked list of interfaces
+        temp_addr = interfaces;
+        while(temp_addr != NULL) {
+            if(temp_addr->ifa_addr->sa_family == AF_INET) {
+                // Check if interface is en0 which is the wifi connection on the iPhone
+                if([[NSString stringWithUTF8String:temp_addr->ifa_name] isEqualToString:@"en0"]) {
+                    // Get NSString from C String
+                    address = [NSString stringWithUTF8String:inet_ntoa(((struct sockaddr_in *)temp_addr->ifa_addr)->sin_addr)];
+                }
+            }
+            
+            temp_addr = temp_addr->ifa_next;
+        }
+    }
+    
+    // Free memory
+    freeifaddrs(interfaces);
+    
+    return address;
+}
 
 -(int)getIntFromString:(NSString *)theString atLocation:(int)theLocation {
 	NSRange theRange = {theLocation, 1};
@@ -284,7 +337,7 @@
 }
 
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y {
-	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/press"]]];
+	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/key"]]];
 	[newMsg addInt:y];
 	[newMsg addInt:x];
 	[newMsg addInt:1];
@@ -293,7 +346,7 @@
 }
 
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y {
-	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/press"]]];
+	OSCMessage *newMsg = [OSCMessage createWithAddress:[NSString stringWithString:[self.oscPrefix stringByAppendingString:@"/grid/key"]]];
 	[newMsg addInt:y];
 	[newMsg addInt:x];
 	[newMsg addInt:0];
@@ -312,6 +365,7 @@
 
 - (void)dealloc {
 	[manager release];
+    [inPort release];
 	[outPort release];
 	[mainViewController release];
 	[oscPrefix release];

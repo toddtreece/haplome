@@ -30,15 +30,18 @@
 
 #import <UIKit/UIKit.h>
 #import <VVOSC/VVOSC.h>
+
 @class MainViewController;
 @class Reachability;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
 	int yNumPads;
 	int xNumPads;
+    int port;
     UIWindow *window;
 	NSString *oscPrefix;
 	MainViewController *mainViewController;
 	OSCManager *manager;
+    OSCInPort *inPort;
 	OSCOutPort *outPort;
 	Reachability* hostReach;
     Reachability* internetReach;
@@ -50,14 +53,17 @@
 @property (nonatomic, retain) OSCManager *manager;
 @property (nonatomic, retain) NSString *oscPrefix;
 @property (nonatomic, retain) OSCOutPort *outPort;
+@property (nonatomic, retain) OSCInPort *inPort;
+
 - (void) setupDefaults;
 - (void) setupListeners;
+-(NSString *) getIPAddress;
 - (void) receivedPrefix:(OSCMessage *)message;
-- (void) receivedReport:(OSCMessage *)message;
+- (void) receivedPort:(OSCMessage *)message;
 - (void) receivedRow:(OSCMessage *)message;
-- (void) receivedClear:(OSCMessage *)message;
+- (void) receivedAll:(OSCMessage *)message;
 - (void) receivedCol:(OSCMessage *)message;
-- (void) receivedConnectionInfo:(OSCMessage *)message;
+- (void) receivedInfo:(OSCMessage *)message;
 - (void) receivedFrame:(OSCMessage *)message;
 - (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;

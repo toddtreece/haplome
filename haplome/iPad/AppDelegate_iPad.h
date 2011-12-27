@@ -29,11 +29,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VVOSC/VVOSC.h>
+
 @class MainViewController;
 @class Reachability;
 @interface AppDelegate_iPad : NSObject <UIApplicationDelegate> {
+	int yNumPads;
+	int xNumPads;
+    int port;
     UIWindow *window;
+	NSString *oscPrefix;
 	MainViewController *mainViewController;
+	OSCManager *manager;
+    OSCInPort *inPort;
+	OSCOutPort *outPort;
 	Reachability* hostReach;
     Reachability* internetReach;
     Reachability* wifiReach;
@@ -41,9 +50,27 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
+@property (nonatomic, retain) OSCManager *manager;
+@property (nonatomic, retain) NSString *oscPrefix;
+@property (nonatomic, retain) OSCOutPort *outPort;
+@property (nonatomic, retain) OSCInPort *inPort;
+
+- (void) setupDefaults;
+- (void) setupListeners;
+-(NSString *) getIPAddress;
+- (void) receivedPrefix:(OSCMessage *)message;
+- (void) receivedPort:(OSCMessage *)message;
+- (void) receivedRow:(OSCMessage *)message;
+- (void) receivedAll:(OSCMessage *)message;
+- (void) receivedCol:(OSCMessage *)message;
+- (void) receivedInfo:(OSCMessage *)message;
+- (void) receivedFrame:(OSCMessage *)message;
+- (void) receivedLed:(OSCMessage *)message;
 - (void) activateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) deactivateView:(NSUInteger)x withCol:(NSUInteger)y;
 - (void) updateInterfaceWithReachability: (Reachability*) curReach;
 - (void) _showAlert:(NSString*)title;
+- (NSString *) getBinary:(int)sentNum;
+- (int) getIntFromString:(NSString *)theString atLocation:(int)theLocation;
 @end
 

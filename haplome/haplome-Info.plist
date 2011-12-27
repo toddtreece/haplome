@@ -8,14 +8,6 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>UIApplicationExitsOnSuspend</key>
-	<true/>
-	<key>UIRequiresPersistentWiFi</key>
-	<true/>
-	<key>UILaunchImageFile~ipad</key>
-	<string>default_768.png</string>
-	<key>UILaunchImageFile~iphone</key>
-	<string>default_640.png</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>icon_57.png</string>
@@ -30,6 +22,8 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -40,6 +34,16 @@
 	<string>MainWindow_iPhone</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>MainWindow_iPad</string>
+	<key>UIApplicationExitsOnSuspend</key>
+	<true/>
+	<key>UILaunchImageFile~ipad</key>
+	<string>default_768.png</string>
+	<key>UILaunchImageFile~iphone</key>
+	<string>default_640.png</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeRight</string>
@@ -48,7 +52,5 @@
 	<array>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIStatusBarHidden</key>
-	<true/>
 </dict>
 </plist>
